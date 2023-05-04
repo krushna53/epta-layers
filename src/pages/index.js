@@ -1,13 +1,15 @@
 import * as React from "react"
-import Banner from "../components/Banner"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Offerings from "../components/Offerings";
 import '../components/style.css';
+import Banner from "../components/Banner"
+import SolutionOffering from "../components/SolutionOfferings";
 
 
 const IndexPage = () => (
   <Layout>
+    <SolutionOffering/>
     <Banner />
     <Offerings />
   </Layout>
