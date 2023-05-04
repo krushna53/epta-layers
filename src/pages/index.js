@@ -5,6 +5,7 @@ import Offerings from "../components/Offerings";
 import '../components/style.css';
 import Banner from "../components/Banner"
 import SolutionOffering from "../components/SolutionOfferings";
+import Footer from "../components/Footer";
 
 
 const IndexPage = () => (
@@ -12,7 +13,8 @@ const IndexPage = () => (
     <Banner />
     <Offerings />
     <SolutionOffering/>
-  </Layout>
+    <Footer/>
+  </Layout> 
 )
 
 export const Head = () => <Seo title="Home" />
