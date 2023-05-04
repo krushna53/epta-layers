@@ -99,3 +99,47 @@
 .solution-background-image2 img{
     width: 54px;
 }
+.footer-section{
+    background-color: #50505b;
+    color: white;
+}
+.footer-wrapper{
+    padding: 50px 0px 30px 0px;
+    max-width: 1180px;
+    margin: 0px auto;
+}
+.footer-image img{
+    width: 184px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 70px;
+}
+.footer-container h2{
+    margin: 0px;
+    font-size: 60px;
+}
+.footer-folder1{
+    max-width: 188px;
+}
+.footer-folder1 h2{
+    font-size: 17px;
+}
+.footer-folder1 p{
+    font-size: 17px;
+    color: #cdcdce;
+}
+.footer-info{
+    display: flex;
+    font-size: 17px;
+    gap: 6px;
+}
+.footer-info h2{
+    font-size: 17px;
+}
+.footer-info a{
+    color: #cdcdce;
+    text-decoration: none;
+}
