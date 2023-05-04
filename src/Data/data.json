@@ -1,0 +1,56 @@
+{
+    "SolutionOfferingsDetails": [
+        {
+            "id": 1,
+            "title": "Enterprise Network",
+            "link1": "Routing",
+            "link2": "Switching",
+            "link3": "Wi-Fi",
+            "link4": "SD-WAN",
+            "link5": "Information Management System"
+        },
+        {
+            "id": 2,
+            "title": "Security Architecture",
+            "link1": "Network Security",
+            "link2": "Email Security",
+            "link3": "Endpoint Security",
+            "link4": "Public & Private Infra Security",
+            "link5": "Secured Access Service Edges"
+        },
+        {
+            "id": 3,
+            "title": "Collaboration Architecture",
+            "link1": "Cloud Meeting Solutions",
+            "link2": "IP Phones, Headsets, Speaker Phones",
+            "link3": "Conference Phones",
+            "link4": "Conference Room Solutions"
+        },
+        {
+            "id": 4,
+            "title": "Data Center Architecture",
+            "link1": "Storage Area Network ( SAN )",
+            "link2": "Fabric Switch",
+            "link3": "Software Defined Network",
+            "link4": "Application Development Controller",
+            "link5": "Web Application Firewall"
+        },
+        {
+            "id": 5,
+            "title": "Data Center Services",
+            "link1": "Co-location and Remote Services",
+            "link2": "Cloud and DR Services",
+            "link3": "CDN, MPLS, and CDN Services",
+            "link4": "Network Security Services",
+            "link5": "Data Resiliency Services"
+        },
+        {
+            "id": 6,
+            "title": "Enterprise Services",
+            "link1": "Hardware Renewal",
+            "link2": "Software License Subscriptions",
+            "link3": "Professional Services",
+            "link4": "End-to-end IT Accessories"
+        }
+    ]
+}

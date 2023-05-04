@@ -1,5 +1,5 @@
 import React from 'react'
-import leftImage from '../images/4.png'
+import leftImage from '../images/4new.jpg'
 import model from '../images/OSI Model new.png'
 
 const Offerings = () => {

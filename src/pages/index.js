@@ -5,6 +5,7 @@ import Offerings from "../components/Offerings";
 import '../components/style.css';
 import Banner from "../components/Banner"
 import SolutionOffering from "../components/SolutionOfferings";
+import SolutionOfferingsDetails from "../components/SolutionOfferingsDetails";
 
 
 const IndexPage = () => (
@@ -12,6 +13,7 @@ const IndexPage = () => (
     <Banner />
     <Offerings />
     <SolutionOffering/>
+    <SolutionOfferingsDetails/>
   </Layout>
 )
 
