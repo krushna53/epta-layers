@@ -260,6 +260,12 @@ pre tt:after {
 }
 
 /* Offerings section css */
+section.offerings {
+  max-width: 100%;
+  width: 1195px;
+  margin: auto;
+  padding: 50px 0px;
+}
 .offerings .d-flex {
   display: flex;
   justify-content: space-between;
@@ -278,8 +284,6 @@ pre tt:after {
   width: 385px;
   margin: auto;
 }
-
-
 
 .offerings .dec p {
   font-size: 16px;
@@ -303,6 +307,7 @@ pre tt:after {
   max-width: 100%;
   width: 450px;
   margin: auto;
+  margin-bottom: 0px;
 }
 .right .img {
   display: flex;
