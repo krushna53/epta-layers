@@ -9,9 +9,9 @@ import SolutionOffering from "../components/SolutionOfferings";
 
 const IndexPage = () => (
   <Layout>
-    <SolutionOffering/>
     <Banner />
     <Offerings />
+    <SolutionOffering/>
   </Layout>
 )
 
