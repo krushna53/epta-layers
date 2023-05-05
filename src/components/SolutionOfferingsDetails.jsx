@@ -2,6 +2,8 @@ import React from 'react';
 import dataJson from '../Data/data.json'
 import CollaborationArchitecture from './CollaborationArchitecture';
 import DataCenterServices from './DataCenterServices';
+import SolutionOffering from './SolutionOfferings';
+import SolutionOffering_backhround from "../images/solution-offering-background-image.png";
 
 const SolutionOfferingsDetails = () => {
   return (

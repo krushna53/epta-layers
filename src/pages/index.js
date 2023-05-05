@@ -5,11 +5,10 @@ import Offerings from "../components/Offerings";
 import '../components/style.css';
 import Banner from "../components/Banner"
 import SolutionOffering from "../components/SolutionOfferings";
-
 import SolutionOfferingsDetails from "../components/SolutionOfferingsDetails";
-
 import Footer from "../components/Footer";
-
+import Ouruniquestrenth from "../components/OurUniquestrenth";
+import Contact from "../components/Contact";
 
 
 const IndexPage = () => (
@@ -18,10 +17,19 @@ const IndexPage = () => (
     <Offerings />
     <SolutionOffering/>
     <SolutionOfferingsDetails/>
-     <Footer/>
+    <Ouruniquestrenth/>
+    <Contact/>
+    <Footer/>
   </Layout>
 )
 
-export const Head = () => <Seo title="Home" />
+export const Head = () => {
+  return(
+    <>
+      <Seo title="Home" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    </>
+  );
+};
 
-export default IndexPage
+export default IndexPage;

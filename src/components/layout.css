@@ -279,7 +279,7 @@ section.offerings {
 
 .offerings .dec {
   max-width: 100%;
-  width: 385px;
+  width: 430px;
   margin: auto;
 }
 
@@ -315,25 +315,26 @@ section.offerings {
   justify-content: center;
   margin: auto;
 }
-
-.btn {
-  display: flex;
-  align-items: center;
-  margin-left: 16%;
+.offerings .right .btn{
+  margin-left: 80px;
+}
+.offerings .right .btn button {
+  padding: 11px 52px;
 }
 
 .btn button {
-  padding: 10px 30px;
+  padding: 11px 66px;
   border-radius: 28px;
-  background: none;
   cursor: pointer;
   margin-top: 20px;
+  background: none;
+  border: 1px solid black
 }
 
 /* end */
 /* SolutionOfferingsDetails section css */
 section{
-  padding: 50px 0px;
+  padding: 50px 0px 15px 0px;
 }
 .SolutionOfferingsDetails {
   max-width: 100%;
@@ -350,6 +351,7 @@ section{
   background: url(../images/2.png)no-repeat;
   background-size: 26%;
   background-position: 900px -8px;
+  position: relative;
 }
 
 .SolutionOfferingsDetails img {
@@ -396,7 +398,7 @@ section{
 }
 .wrapper .dec p {
   text-align: right;
-  max-width: 200px;
+  max-width: 207px;
   margin: auto;
   margin-top: 20px;
   font-size: 16px;

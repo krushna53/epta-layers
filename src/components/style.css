@@ -11,8 +11,6 @@
 }
 .banner-image img {
     width: 100%;
-    filter: b;
-    filter: brightness(0.5);
     display: block;
     margin: 0px;
 }
@@ -114,7 +112,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 70px;
+    margin: 70px 0px 50px 0px;
 }
 .footer-container h2{
     margin: 0px;
@@ -141,4 +139,143 @@
 .footer-info a{
     color: #cdcdce;
     text-decoration: none;
+}
+.footer-social-link {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: end;
+    max-width: 1072px;
+}
+.footer-social-link a{
+    font-size: 27px;
+    color: white;
+}
+.our-unique-strenth-wrapper{
+    display: flex;
+    max-width: 1195px;
+    margin: 0px auto 0px auto;
+}
+.our-unique-strenth-left-section{
+    width: 30%;
+}
+.our-unique-strenth-left-section h2{
+    font-size: 60px;
+    line-height: 67px;
+}
+.our-unique-strenth-right-section {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 550px;
+}
+.our-unique-strenth-container{
+    display: flex;
+    gap: 38px;
+}
+.our-unique-strenth-folder{
+    max-width: 282px;
+}
+.our-unique-image img{
+    width: 152px;
+}
+.our-unique-strenth-folder span{
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+.our-unique-strenth-folder h2 {
+    font-size: 34px;
+    margin: 5px 0px 5px 0px;
+}
+.our-unique-strenth-folder p{
+    font-size: 17px;
+    line-height: 27px;
+}
+.our-unique-strenth-section {
+    background-color: #d2d2da;
+    padding: 100px 0px 50px 0px;
+}
+.our-unique-image{
+    margin-bottom: 30px;
+}
+.contact-epta-layer-wrapper{
+    max-width: 1211px;
+    margin-right: 0px;
+    margin-left: auto;
+}
+.contact-epta-layer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px 50px 0px;
+}
+.contact-epta-layer-container h2{
+    font-size: 52px;
+    max-width: 290px;
+}
+.contact-form{
+    max-width: 313px;
+}
+.contact-form h2, 
+form h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.contact-form p{
+    font-size: 16px;
+    margin: 20px 0px 46px 0px;
+}
+.inner-input{
+    display: flex;
+    gap: 9px;
+    margin-bottom: 12px;    
+}
+.inner-input h2{
+    font-size: 16px;
+}
+.inner-input input{
+    padding: 4px 5px;
+}
+.ipLabels{
+    min-width: 46px
+}
+.contact-epta-layer-container-image {
+    max-width: 384px;
+    position: relative;
+    transform: translateY(-100px);
+}
+.submit-btn {
+    max-width: 240px;
+    text-align: end;
+}
+.submit-btn button {
+    padding: 10px 72px;
+    border-radius: 40px;
+    font-size: 13px;
+    background: none;
+    border: 1px solid black;
+}
+.inner-input textarea{
+    padding: 4px 5px;
+    resize: none;
+}
+.contact-epta-layer-section{
+    background-color: #f8f8f6;
+    position: relative;
+}
+.contact-background1{
+    position: absolute;
+    top: 56%;
+    right: 15.4%;
+}
+.contact-background1 img{
+    width: 82px;
+}
+.contact-background2{
+    position: absolute;
+    bottom: -4.9%;
+    left: -4%;
+}
+.contact-background2 img{
+    width: 485px;
 }
