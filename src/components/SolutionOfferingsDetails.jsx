@@ -1,27 +1,69 @@
-import React from 'react'
+import React from 'react';
 import dataJson from '../Data/data.json'
+import CollaborationArchitecture from './CollaborationArchitecture';
+import DataCenterServices from './DataCenterServices';
+
 const SolutionOfferingsDetails = () => {
   return (
-    <>
-      <section className='SolutionOfferingsDetails'>
-        <div className=''>
+    <section className='SolutionOfferingsDetails'>
+      <div className='wrapper'>
+        <div className='box'>
           {
-            dataJson.SolutionOfferingsDetails.map((d, i) => {
+            dataJson['Enterprise Network'].map((d, i) => {
               return (
-                <React.Fragment key={d.id}>
-                  <div className=''>
-                    <h2>{d.id}</h2>
-                    <p>{d.title}</p>
+                <>
+                  <div className="d-flex">
+                    <p>0{d.id}</p>
+                    <h2>{d.title}</h2>
                   </div>
-                </React.Fragment>
+                  <ul>
+                    {d.link1 && <li>{d.link1}</li>}
+                    {d.link2 && <li>{d.link2}</li>}
+                    {d.link3 && <li>{d.link3}</li>}
+                    {d.link4 && <li>{d.link4}</li>}
+                    {d.link5 && <li>{d.link5}</li>}
+                    {d.link6 && <li>{d.link6}</li>}
+                  </ul>
+                </>
               )
             })
           }
         </div>
+        <div className="image">
+          {
+            dataJson.img.map((d, i) => {
+              return (
+                <>
+                  <img src={d.img} alt="" />
+                </>
+              )
+            })
+          }
+        </div>
+        <div className="dec">
+          {
+            dataJson['Solution Offerings'].map((d, i) => {
+              return (
+                <>
+                  <h2>{d.title}</h2>
+                  <p>{d.desc}</p>
+                  <div className='btn'>
+                    <button>{d.btn}</button>
+                  </div>
+                </>
+              )
+            })
+          }
+        </div>
+      </div>
+      <section className='CollaborationArchitecture'>
+        <CollaborationArchitecture />
       </section>
+      <section className='DataCenterServices'>
+        <DataCenterServices />
+      </section>
+    </section>
+  );
+};
 
-    </>
-  )
-}
-
-export default SolutionOfferingsDetails
+export default SolutionOfferingsDetails;

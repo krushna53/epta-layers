@@ -203,9 +203,6 @@ li>p {
   margin-bottom: calc(var(--space-4) / 2);
 }
 
-p {
-  max-width: 680px;
-}
 
 code {
   font-size: 0.875rem;
@@ -266,6 +263,7 @@ section.offerings {
   margin: auto;
   padding: 50px 0px;
 }
+
 .offerings .d-flex {
   display: flex;
   justify-content: space-between;
@@ -297,6 +295,7 @@ section.offerings {
   align-items: center;
   margin: auto;
 }
+
 .right .img p {
   font-style: italic;
   font-size: 15px;
@@ -308,6 +307,7 @@ section.offerings {
   margin: auto;
   margin-bottom: 0px;
 }
+
 .right .img {
   display: flex;
   flex-direction: column;
@@ -315,11 +315,13 @@ section.offerings {
   justify-content: center;
   margin: auto;
 }
+
 .btn {
   display: flex;
   align-items: center;
   margin-left: 16%;
 }
+
 .btn button {
   padding: 10px 30px;
   border-radius: 28px;
@@ -327,4 +329,78 @@ section.offerings {
   cursor: pointer;
   margin-top: 20px;
 }
+
 /* end */
+/* SolutionOfferingsDetails section css */
+section{
+  padding: 50px 0px;
+}
+.SolutionOfferingsDetails {
+  max-width: 100%;
+  width: 1195px;
+  margin: auto;
+
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin: auto;
+  background: url(../images/2.png)no-repeat;
+  background-size: 26%;
+  background-position: 900px -8px;
+}
+
+.SolutionOfferingsDetails img {
+  max-width: 100%;
+  width: 400px;
+  height: 500px;
+
+}
+
+.wrapper .d-flex {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.wrapper .d-flex p {
+  background: url(../images/service-background1.png)no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+}
+
+.wrapper .d-flex h2 {
+  color: #dc6543;
+  font-size: 16px;
+}
+
+.wrapper ul li {
+  margin-left: 20%;
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.box {
+  max-width: 100%;
+  width: 335px;
+}
+.wrapper .dec {
+  transform: translate(0px, 50%);
+}
+.wrapper .dec p {
+  text-align: right;
+  max-width: 200px;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* end  */
