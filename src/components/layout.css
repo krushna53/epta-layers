@@ -332,15 +332,11 @@ section.offerings {
 }
 
 /* end */
-/* SolutionOfferingsDetails section css */
-/* section{
-  padding: 50px 0px 15px 0px;
-} */
 .SolutionOfferingsDetails {
   max-width: 100%;
-  width: 1195px;
+  width: 100%;
   margin: auto;
-
+  padding-left: 75px;
 }
 
 .wrapper {
@@ -350,9 +346,9 @@ section.offerings {
   margin: auto;
   background: url(../images/Frame-2.png)no-repeat;
   background-size: 26%;
-  background-position: 900px -8px;
+  background-position: 100% 0;
   position: relative;
-  padding: 50px 0 15px 0;
+  padding: 50px 76px 40px 0;
 }
 
 .SolutionOfferingsDetails img {
