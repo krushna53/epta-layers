@@ -9,8 +9,8 @@ function Contact(){
             <div className="contact-epta-layer-section">
                 <div className="contact-epta-layer-wrapper">
                     <div className="contact-epta-layer-container">
-                        <h2>We are Epta Layers</h2>
-                        <div className="contact-form">
+                        <h2 data-aos="fade-up" data-aos-offset="500">We are Epta Layers</h2>
+                        <div className="contact-form" data-aos="fade-down" data-aos-offset="800">
                             <h2>Our Vision</h2>
                             <p>To provide the best IT infrastructure solutions and help our customers improve their
                                business continuity. We aim to become the most reliable technology partner for all 
@@ -36,7 +36,7 @@ function Contact(){
                             </form>
                         </div>
                         <div className="contact-epta-layer-container-image">
-                            <img src={contact_image}/>
+                            <img data-aos="zoom-in" data-aos-offset="500" src={contact_image}/>
                         </div>
                     </div>
                 </div>

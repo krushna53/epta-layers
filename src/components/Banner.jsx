@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import banner_image from "../images/banner-image.png";
 import banner_des_image from '../images/logo-image.png';
+import Aos from 'aos';
 
 const Banner = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+      }, []);
   return (
     <>
         <div className='banner-section'>
@@ -12,11 +16,11 @@ const Banner = () => {
                         <img src={banner_image}/>
                     </div>
                     <div className='banner-des-folder'>
-                        <div className='banner-des-image'>
+                        <div className='banner-des-image' data-aos="fade-down">
                             <img src={banner_des_image}/>
                         </div>
-                        <p>A SINGLE-POINT ENTERPRISE SOLUTIONS PROVIDER</p>
-                        <h2>We work with IT world
+                        <p data-aos="fade-down">A SINGLE-POINT ENTERPRISE SOLUTIONS PROVIDER</p>
+                        <h2 data-aos="fade-down">We work with IT world
                             leaders to deliver
                             tailor-made solutions.
                         </h2>
