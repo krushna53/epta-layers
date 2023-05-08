@@ -31,7 +31,7 @@ const CollaborationArchitecture = () => {
         </div>
         <div className="image">
           {dataJson.img2.map((d, i) => {
-            return <img key={i} src={d.img} alt='' />;
+            return <img data-aos="zoom-in" data-aos-duration="3000" key={i} src={d.img} alt='' />;
           })}
         </div>
         <div className="dec">
