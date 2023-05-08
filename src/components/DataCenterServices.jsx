@@ -12,11 +12,11 @@ const DataCenterServices = () => {
                     {dataJson['Data Center Services'].map((d, i) => {
                         return (
                             <React.Fragment key={d.id}>
-                                <div className="d-flex" data-aos="fade-up" data-aos-offset="300">
+                                <div className="d-flex" data-aos="fade-up" data-aos-duration="3000">
                                     <p>0{d.id}</p>
                                     <h2>{d.title}</h2>
                                 </div>
-                                <ul data-aos="fade-up" data-aos-offset="300">
+                                <ul data-aos="fade-up" data-aos-duration="4000">
                                     {d.link1 && <li>{d.link1}</li>}
                                     {d.link2 && <li>{d.link2}</li>}
                                     {d.link3 && <li>{d.link3}</li>}
@@ -30,7 +30,7 @@ const DataCenterServices = () => {
                 </div>
                 <div className="image">
                     {dataJson.img3.map((d, i) => {
-                        return <img key={i} src={d.img} alt='' />;
+                        return <img data-aos="zoom-in" data-aos-duration="3000" key={i} src={d.img} alt='' />;
                     })}
                 </div>
                 <div className="dec">
