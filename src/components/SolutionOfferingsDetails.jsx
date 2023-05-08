@@ -40,7 +40,7 @@ const SolutionOfferingsDetails = () => {
             dataJson.img.map((d, i) => {
               return (
                 <>
-                  <img src={d.img} alt="" />
+                  <img data-aos="zoom-in" data-aos-duration="3000" src={d.img} alt="" />
                 </>
               )
             })
