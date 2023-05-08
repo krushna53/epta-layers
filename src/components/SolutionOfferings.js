@@ -17,7 +17,7 @@ function SolutionOffering(){
                            with a keen focus on network architecture.
                         </p>
                     </div>
-                    <div className="solution-offering-right-section" data-aos="fade-up" data-aos-offset="500" data-aos-duration="3000">
+                    <div className="solution-offering-right-section" data-aos="fade-up" data-aos-offset="600" data-aos-duration="3000">
                         <div className="solution-offring-image">
                             <img src={SolutionOffering_image}/>
                         </div>
