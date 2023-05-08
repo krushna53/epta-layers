@@ -9,25 +9,25 @@ import SolutionOfferingsDetails from "../components/SolutionOfferingsDetails";
 import Footer from "../components/Footer";
 import Ouruniquestrenth from "../components/OurUniquestrenth";
 import Contact from "../components/Contact";
-
+import '../css/aos.css'
 
 const IndexPage = () => (
   <Layout>
     <Banner />
     <Offerings />
-    <SolutionOffering/>
-    <SolutionOfferingsDetails/>
-    <Ouruniquestrenth/>
-    <Contact/>
-    <Footer/>
+    <SolutionOffering />
+    <SolutionOfferingsDetails />
+    <Ouruniquestrenth />
+    <Contact />
+    <Footer />
   </Layout>
 )
 
 export const Head = () => {
-  return(
+  return (
     <>
       <Seo title="Home" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     </>
   );
 };
