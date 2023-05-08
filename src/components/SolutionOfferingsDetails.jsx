@@ -51,8 +51,8 @@ const SolutionOfferingsDetails = () => {
             dataJson['Solution Offerings'].map((d, i) => {
               return (
                 <>
-                  <h2>{d.title}</h2>
-                  <p>{d.desc}</p>
+                  <h2 data-aos="fade-up" data-aos-offset="400">{d.title}</h2>
+                  <p data-aos="fade-up" data-aos-offset="500">{d.desc}</p>
                   <div className='btn'>
                     <button>{d.btn}</button>
                   </div>
