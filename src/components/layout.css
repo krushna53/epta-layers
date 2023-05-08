@@ -333,9 +333,9 @@ section.offerings {
 
 /* end */
 /* SolutionOfferingsDetails section css */
-section{
+/* section{
   padding: 50px 0px 15px 0px;
-}
+} */
 .SolutionOfferingsDetails {
   max-width: 100%;
   width: 1195px;
@@ -348,10 +348,11 @@ section{
   justify-content: space-between;
   /* align-items: center; */
   margin: auto;
-  background: url(../images/2.png)no-repeat;
+  background: url(../images/Frame-2.png)no-repeat;
   background-size: 26%;
   background-position: 900px -8px;
   position: relative;
+  padding: 50px 0 15px 0;
 }
 
 .SolutionOfferingsDetails img {
@@ -375,6 +376,7 @@ section{
   margin: 0;
   color: #fff;
   font-size: 16px;
+  
 }
 
 .wrapper .d-flex h2 {
@@ -406,3 +408,6 @@ section{
 }
 
 /* end  */
+#shadow-host-companion{
+  padding: 0px;
+}

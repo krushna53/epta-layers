@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos';
 import dataJson from '../Data/data.json';
 const DataCenterServices = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+      }, []);
     return (
         <>
             <div className='wrapper'>
@@ -8,11 +12,11 @@ const DataCenterServices = () => {
                     {dataJson['Data Center Services'].map((d, i) => {
                         return (
                             <React.Fragment key={d.id}>
-                                <div className="d-flex">
+                                <div className="d-flex" data-aos="fade-up" data-aos-offset="300">
                                     <p>0{d.id}</p>
                                     <h2>{d.title}</h2>
                                 </div>
-                                <ul>
+                                <ul data-aos="fade-up" data-aos-offset="300">
                                     {d.link1 && <li>{d.link1}</li>}
                                     {d.link2 && <li>{d.link2}</li>}
                                     {d.link3 && <li>{d.link3}</li>}
