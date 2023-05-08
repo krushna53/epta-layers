@@ -29,6 +29,11 @@ function Footer(){
                             </div>
                         </div>
                     </div>
+                    <div className="footer-social-link">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
                 </div>
             </div>
         </>
