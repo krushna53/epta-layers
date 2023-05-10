@@ -279,3 +279,65 @@ form h2{
 .contact-background2 img{
     width: 485px;
 }
+@media only screen and (max-width: 767px) {
+    .banner-des-folder {
+        position: absolute;
+        top: 51%;
+        right: 0%;
+        left: 17%;
+        transform: translateY(-50%);
+    }
+    .banner-des-image img {
+        width: 129px;
+        margin-bottom: 0px;
+    }
+    .banner-des-folder p {
+        font-size: 8px;
+        margin: 0px 0px 4px 0px;
+        letter-spacing: 1.5px;
+    }   
+    .banner-des-folder h2 {
+        font-size: 24px;
+        max-width: 310px;
+        line-height: 30px;
+        margin-bottom: 16px;
+    }
+    .banner-image img {
+        width: 100%;
+        height: 524px;
+        margin: 0px;
+    }
+    .banner-des-image {
+        margin-bottom: 8px;
+    }
+    .banner-btn a {
+        padding: 8px 31px;
+        font-size: 10px;
+    }
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .offerings .left{
+        width: 100%;
+    }
+    .offerings .right {
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .offerings .dec p {
+        font-size: 14px;
+    }
+    .offerings .right .btn {
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    section.offerings{
+        width: 315px;
+        margin: auto;
+        padding: 50px 0px;
+    }
+}
