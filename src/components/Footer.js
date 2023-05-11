@@ -10,7 +10,7 @@ function Footer(){
                         <img src={footer_image}/>
                     </div>
                     <div className="footer-container">
-                        <h2>Contact us</h2>
+                        <h2 className="contactUs-title">Contact us</h2>
                         <div className="footer-folder1">
                             <h2>Main Office</h2>
                             <p>#47, 9th Cross, 5th Main, 

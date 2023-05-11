@@ -22,7 +22,7 @@ function Ouruniquestrenth(){
                                 solutions and offering long-term support
                                 </p>
                             </div>
-                            <div className="our-unique-strenth-folder" data-aos="fade-down" data-aos-offset="700" data-aos-duration="3000">
+                            <div className="our-unique-strenth-folder" data-aos="fade-down" data-aos-offset="700">
                                 <div className="our-unique-image">
                                     <img src={our_unique_image2}/>
                                 </div>
