@@ -24,11 +24,11 @@ function Contact(){
                                 </div>
                                 <div className="inner-input">
                                     <label className="ipLabels">Email:</label>
-                                    <input type="text"/>
+                                    <input type="Email"/>
                                 </div>
                                 <div className="inner-input">
                                     <label className="ipLabels">Text:</label>
-                                    <textarea cols="21" rows="5"/>
+                                    <textarea type="text" cols="21" rows="5"/>
                                 </div>
                                 <div className="submit-btn">
                                     <button>Submit</button>
