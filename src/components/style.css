@@ -892,8 +892,8 @@ form h2{
     .footer-image img {
         width: 172px;
     }
-    .contactUs-title{
-        font-size: 54px !important;
+    .contactUs-title {
+        font-size: 43px !important;
     }
     .footer-container {
         display: flex;
@@ -971,4 +971,5 @@ form h2{
     .SolutionOfferingsDetails .wrapper .image img {
         width: 100%;
     }
+    
 }
