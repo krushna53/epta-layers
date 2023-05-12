@@ -28,7 +28,6 @@ const Offerings = () => {
                         <button>See our Offerings</button>
                     </div>
                 </div>
-
             </div>
         </section>
     )

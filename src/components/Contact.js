@@ -11,7 +11,7 @@ function Contact(){
                     <div className="contact-epta-layer-container">
                         <h2 data-aos="fade-up" data-aos-offset="500">We are Epta Layers</h2>
                         <div className="contact-form">
-                            <h2>Our Vision</h2>
+                         <h2>Our Vision</h2>
                             <p>To provide the best IT infrastructure solutions and help our customers improve their
                                business continuity. We aim to become the most reliable technology partner for all 
                                our esteemed customers
@@ -24,11 +24,11 @@ function Contact(){
                                 </div>
                                 <div className="inner-input">
                                     <label className="ipLabels">Email:</label>
-                                    <input type="text"/>
+                                    <input type="Email"/>
                                 </div>
                                 <div className="inner-input">
                                     <label className="ipLabels">Text:</label>
-                                    <textarea cols="21" rows="5"/>
+                                    <textarea type="text" cols="21" rows="5"/>
                                 </div>
                                 <div className="submit-btn">
                                     <button>Submit</button>

@@ -39,7 +39,7 @@ const CollaborationArchitecture = () => {
             return (
               <React.Fragment key={i}>
                <h2 data-aos="fade-up" data-aos-offset="400">{d.title}</h2>
-                  <p data-aos="fade-up" data-aos-offset="500">{d.desc}</p>
+                  <p data-aos="fade-up" data-aos-offset="400">{d.desc}</p>
                 <div className='btn'>
                   <button>{d.btn}</button>
                 </div>
