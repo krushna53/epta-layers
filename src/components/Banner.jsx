@@ -19,12 +19,12 @@ const Banner = () => {
                     <div className='banner-mobile-image'>
                         <img src={banner_mobile_image}/>
                     </div>
-                    <div className='banner-des-folder'>
-                        <div className='banner-des-image' data-aos="fade-down">
+                    <div className='banner-des-folder' data-aos="fade-down">
+                        <div className='banner-des-image'>
                             <img src={banner_des_image}/>
                         </div>
-                        <p data-aos="fade-down">A SINGLE-POINT ENTERPRISE SOLUTIONS PROVIDER</p>
-                        <h2 data-aos="fade-down">We work with IT world
+                        <p>A SINGLE-POINT ENTERPRISE SOLUTIONS PROVIDER</p>
+                        <h2>We work with IT world
                             leaders to deliver
                             tailor-made solutions.
                         </h2>

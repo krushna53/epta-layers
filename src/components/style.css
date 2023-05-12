@@ -16,7 +16,7 @@
 }
 .banner-des-folder {
     position: absolute;
-    top: 50%;
+    top: 17%;
     right: 8%;
     transform: translateY(-50%);
 }
@@ -697,7 +697,7 @@ form h2{
 @media only screen and (max-width: 767px) {
     .banner-des-folder {
         position: absolute;
-        top: 47%;
+        top: 23%;
         right: 0%;
         left: 9%;
         transform: translateY(-50%);
@@ -971,5 +971,4 @@ form h2{
     .SolutionOfferingsDetails .wrapper .image img {
         width: 100%;
     }
-    
 }

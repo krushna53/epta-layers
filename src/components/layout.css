@@ -316,10 +316,9 @@ section.offerings {
   margin: auto;
 }
 .offerings .right .btn{
-  margin-left: 80px;
-}
-.offerings .right .btn button {
-  padding: 11px 52px;
+  /* margin-left: 80px; */
+  display: flex;
+  justify-content: center;
 }
 
 .btn button {
