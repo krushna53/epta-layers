@@ -396,6 +396,114 @@ form h2{
         max-width: 943px;
     }
 }
+@media only screen and (max-width: 820px){
+    .banner-des-folder h2 {
+        font-size: 34px;
+        max-width: 454px;
+        line-height: 40px;
+    }
+    .banner-des-image img {
+        width: 198px;
+    }
+    .banner-des-folder p {
+        font-size: 13px;
+        letter-spacing: 1.3px;
+    }
+    .banner-btn a {
+        padding: 10px 34px;
+        font-size: 18px;
+    }
+    section.offerings, 
+    .solution-offering-wrapper, 
+    .our-unique-strenth-wrapper, 
+    .footer-wrapper{
+        width: 786px;
+    }
+    .solution-offering-left-section h2 {
+        font-size: 38px;
+    }
+    .solution-offering-left-section p {
+        font-size: 17px;
+        margin-top: 61px;
+    }
+    .solution-offring-image img {
+        width: 229px;
+    }
+    .solution-background-image1 img {
+        width: 518px;
+    }
+    .banner-des-folder {
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        left: 46.3%;
+    }
+    .btn button {
+        padding: 13px 43px;
+    }
+    .wrapper .d-flex p {
+        padding: 17px;
+    }
+    .SolutionOfferingsDetails img {
+        width: 351px;
+        height: 436px;
+    }
+    .dec h2 {
+        font-size: 18px;
+    }
+    .wrapper ul li {
+        font-size: 15px;
+    }
+    .wrapper .dec p {
+        font-size: 13px;
+    }
+    .our-unique-strenth-left-section h2 {
+        font-size: 42px;
+    }
+    .our-unique-image img {
+        width: 130px;
+    }
+    .our-unique-strenth-folder h2 {
+        font-size: 32px;
+    }
+    .our-unique-strenth-folder p {
+        font-size: 16px;
+    }
+    .our-unique-strenth-folder {
+        max-width: 272px;
+    }
+    .contact-epta-layer-container {
+        gap: 10px;
+    }
+    .contact-epta-layer-container h2 {
+        font-size: 46px;
+        max-width: 258px;
+    }
+    .contact-form {
+        max-width: 293px;
+    }
+    .inner-input textarea {
+        padding: 4px 10px;
+    }   
+    .contact-background2 img {
+        width: 334px;
+    }
+    .contact-background1 img {
+        width: 57px;
+    }
+    .contact-background1 {
+        position: absolute;
+        top: 33%;
+        right: 16.4%;
+    }
+    .contactUs-title{
+        font-size: 49px !important;
+    }
+    .contact-form h2, 
+    form h2 {
+        font-size: 18px !important;
+    }
+}
 @media only screen and (max-width: 768px){
     .banner-des-folder {
         position: absolute;
