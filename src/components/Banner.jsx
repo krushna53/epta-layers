@@ -5,9 +5,9 @@ import banner_mobile_image from '../images/banner-mobile-image.jpg';
 import Aos from 'aos';
 
 const Banner = () => {
-    useEffect(() => {
-        Aos.init({ duration: 2000 });
-      }, []);
+    // useEffect(() => {
+    //     Aos.init({ duration: 2000 });
+    //   }, []);
   return (
     <>
         <div className='banner-section'>
