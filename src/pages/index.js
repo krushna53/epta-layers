@@ -9,6 +9,7 @@ import SolutionOfferingsDetails from "../components/SolutionOfferingsDetails";
 import Footer from "../components/Footer";
 import Ouruniquestrenth from "../components/OurUniquestrenth";
 import Contact from "../components/Contact";
+import { ToastContainer, toast } from "react-toastify";
 import '../css/aos.css'
 
 const IndexPage = () => (
@@ -20,6 +21,18 @@ const IndexPage = () => (
     <Ouruniquestrenth />
     <Contact />
     <Footer />
+    <ToastContainer
+      position="top-right"
+      autoClose={5000}
+      hideProgressBar={false}
+      newestOnTop={false}
+      closeOnClick
+      rtl={false}
+      pauseOnFocusLoss
+      draggable
+      pauseOnHover
+      theme="dark"
+    />
   </Layout>
 )
 
