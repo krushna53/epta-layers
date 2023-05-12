@@ -37,8 +37,8 @@ const DataCenterServices = () => {
                     {dataJson['Solution Offerin'].map((d, i) => {
                         return (
                             <React.Fragment key={i}>
-                                <h2 data-aos="fade-up" data-aos-offset="400">{d.title}</h2>
-                                <p data-aos="fade-up" data-aos-offset="500">{d.desc}</p>
+                                <h2>{d.title}</h2>
+                                <p>{d.desc}</p>
                                 <div className='btn'>
                                     <button>{d.btn}</button>
                                 </div>

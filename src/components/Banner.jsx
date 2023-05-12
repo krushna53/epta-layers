@@ -19,7 +19,7 @@ const Banner = () => {
                     <div className='banner-mobile-image'>
                         <img src={banner_mobile_image}/>
                     </div>
-                    <div className='banner-des-folder' data-aos="fade-down">
+                    <div className='banner-des-folder' data-aos="fade-up">
                         <div className='banner-des-image'>
                             <img src={banner_des_image}/>
                         </div>
