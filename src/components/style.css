@@ -16,7 +16,7 @@
 }
 .banner-des-folder {
     position: absolute;
-    top: 50%;
+    top: 17%;
     right: 8%;
     transform: translateY(-50%);
 }
@@ -697,7 +697,7 @@ form h2{
 @media only screen and (max-width: 767px) {
     .banner-des-folder {
         position: absolute;
-        top: 47%;
+        top: 23%;
         right: 0%;
         left: 9%;
         transform: translateY(-50%);
@@ -892,8 +892,8 @@ form h2{
     .footer-image img {
         width: 172px;
     }
-    .contactUs-title{
-        font-size: 54px !important;
+    .contactUs-title {
+        font-size: 43px !important;
     }
     .footer-container {
         display: flex;
