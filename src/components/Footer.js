@@ -1,21 +1,21 @@
 import React from "react";
 import footer_image from '../images/logo-image.png';
 
-function Footer(){
-    return(
+function Footer() {
+    return (
         <>
             <div className="footer-section">
                 <div className="footer-wrapper">
                     <div className="footer-image">
-                        <img src={footer_image}/>
+                        <img src={footer_image} />
                     </div>
                     <div className="footer-container">
                         <h2 className="contactUs-title">Contact us</h2>
                         <div className="footer-folder1">
                             <h2>Main Office</h2>
-                            <p>#47, 9th Cross, 5th Main, 
-                               Srinidhi Layout
-                               Bengaluru – 560062
+                            <p>#47, 9th Cross, 5th Main,
+                                Srinidhi Layout
+                                Bengaluru – 560062
                             </p>
                         </div>
                         <div className="footer-folder2">
@@ -30,7 +30,7 @@ function Footer(){
                         </div>
                     </div>
                     <div className="footer-social-link">
-                        <i class="fa-brands fa-linkedin"></i>
+                        <a href="#">  <i class="fa-brands fa-linkedin"></i></a>
                         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                         <a href="#"><i class="fa-brands fa-twitter"></i></a>
                     </div>
