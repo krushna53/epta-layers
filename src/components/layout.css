@@ -406,3 +406,7 @@ section.offerings {
 #shadow-host-companion{
   padding: 0px;
 }
+.footer-social-link
+.fa-brands, .fab{
+  font-size: 28px;
+}
