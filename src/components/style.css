@@ -280,7 +280,7 @@ form h2{
     width: 485px;
 }
 .banner-mobile-image{
-    cursor: pointer;
+    display: none;
 }
 
 @media only screen and (max-width: 1024px){
