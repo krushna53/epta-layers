@@ -3,6 +3,9 @@
     padding: 0%;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 .banner-container{
     position: relative;
 }
@@ -970,5 +973,5 @@ form h2{
     }
     .SolutionOfferingsDetails .wrapper .image img {
         width: 100%;
-    }
+    }   
 }
