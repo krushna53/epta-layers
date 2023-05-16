@@ -13,11 +13,12 @@ const CollaborationArchitecture = () => {
           {dataJson['Collaboration Architecture'].map((d, i) => {
             return (
               <React.Fragment key={d.id}>
-                <div className="d-flex" data-aos="fade-up" data-aos-offset="300">
+                <div data-aos="fade-up" data-aos-offset="300" >
+                <div className="d-flex">
                   <p>0{d.id}</p>
                   <h2>{d.title}</h2>
                 </div>
-                <ul data-aos="fade-up" data-aos-offset="300">
+                <ul>
                   {d.link1 && <li>{d.link1}</li>}
                   {d.link2 && <li>{d.link2}</li>}
                   {d.link3 && <li>{d.link3}</li>}
@@ -25,6 +26,7 @@ const CollaborationArchitecture = () => {
                   {d.link5 && <li>{d.link5}</li>}
                   {d.link6 && <li>{d.link6}</li>}
                 </ul>
+                </div>
               </React.Fragment>
             );
           })}
@@ -41,7 +43,7 @@ const CollaborationArchitecture = () => {
                <h2>{d.title}</h2>
                   <p>{d.desc}</p>
                 <div className='btn'>
-                  <button>{d.btn}</button>
+                  <button> <a href='#Getintouch'>{d.btn}</a></button>
                 </div>
               </React.Fragment>
             );

@@ -26,6 +26,8 @@ const Banner = () => {
                         <p>A SINGLE-POINT ENTERPRISE SOLUTIONS PROVIDER</p>
                         <h2>We work with IT world
                             leaders to deliver
+                            <br/>
+                          
                             tailor-made solutions.
                         </h2>
                         <div className='banner-btn'>
