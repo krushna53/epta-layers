@@ -29,7 +29,7 @@ const Banner = () => {
                             tailor-made solutions.
                         </h2>
                         <div className='banner-btn'>
-                            <a href='#'>Learn more</a>
+                            <a href='#offerings'>Learn more</a>
                         </div>
                     </div>
                 </div>

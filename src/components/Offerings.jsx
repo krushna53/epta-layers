@@ -7,7 +7,7 @@ const Offerings = () => {
         Aos.init({ duration: 2000 });
       }, []);
     return (
-        <section className='offerings'>
+        <section className='offerings' id='offerings'>
             <div className='d-flex'>
                 <div className='left'>
                     <div className='img' data-aos="zoom-in">
@@ -25,7 +25,9 @@ const Offerings = () => {
                         <p>Open Systems interconnection (OSI) model</p>
                     </div>
                     <div className='btn'>
-                        <button>See our Offerings</button>
+                        <a href='#solutionoffring'>
+                            <button>See our Offerings</button>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@ function SolutionOffering(){
       }, []);
     return(
         <>
-            <div className="solution-offering-section">
+            <div className="solution-offering-section" id='solutionoffring'>
                 <div className="solution-offering-wrapper">
                     <div className="solution-offering-left-section" data-aos="fade-up" data-aos-offset="200">
                         <h2>Solution Offerings</h2>
