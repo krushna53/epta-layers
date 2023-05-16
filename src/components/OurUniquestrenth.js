@@ -11,8 +11,8 @@ function Ouruniquestrenth(){
                         <h2 data-aos="fade-up" data-aos-offset="400">Our Unique Strengths</h2>
                     </div>
                     <div className="our-unique-strenth-right-section">
-                        <div className="our-unique-strenth-container">
-                            <div className="our-unique-strenth-folder" data-aos="fade-down" data-aos-offset="200">
+                        <div className="our-unique-strenth-container" data-aos="fade-down" data-aos-offset="200">
+                            <div className="our-unique-strenth-folder">
                                 <div className="our-unique-image">
                                     <img src={our_unique_image}/>
                                 </div>
@@ -22,7 +22,7 @@ function Ouruniquestrenth(){
                                 solutions and offering long-term support
                                 </p>
                             </div>
-                            <div className="our-unique-strenth-folder" data-aos="fade-down" data-aos-offset="500">
+                            <div className="our-unique-strenth-folder">
                                 <div className="our-unique-image">
                                     <img src={our_unique_image2}/>
                                 </div>
