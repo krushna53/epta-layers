@@ -10,7 +10,9 @@
 module.exports = {
   siteMetadata: {
     title: `Epta Layers`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `A SINGLE-POINT ENTERPRISE SOLUTIONS PROVIDER
+We work with IT world leaders to deliver
+tailor-made solutions.`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
