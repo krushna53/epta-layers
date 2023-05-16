@@ -285,7 +285,7 @@ section.offerings {
 
 .offerings .dec p {
   font-size: 16px;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 
 .offerings .right .dec .img {
@@ -301,6 +301,7 @@ section.offerings {
   font-size: 15px;
   font-weight: 600;
 }
+
 .right .img img {
   max-width: 100%;
   width: 450px;
@@ -315,7 +316,8 @@ section.offerings {
   justify-content: center;
   margin: auto;
 }
-.offerings .right .btn{
+
+.offerings .right .btn {
   /* margin-left: 80px; */
   display: flex;
   justify-content: center;
@@ -328,6 +330,11 @@ section.offerings {
   margin-top: 20px;
   background: none;
   border: 1px solid black
+}
+
+.btn button a {
+  text-decoration: none;
+  color: #000;
 }
 
 /* end */
@@ -371,7 +378,7 @@ section.offerings {
   margin: 0;
   color: #fff;
   font-size: 16px;
-  
+
 }
 
 .wrapper .d-flex h2 {
@@ -383,26 +390,37 @@ section.offerings {
   margin-left: 20%;
   margin-bottom: 0px;
   font-size: 16px;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 .box {
   max-width: 100%;
   width: 335px;
 }
+
 .wrapper .dec {
   transform: translate(0px, 50%);
 }
+
 .wrapper .dec p {
   text-align: right;
   max-width: 207px;
   margin: auto;
   margin-top: 20px;
   font-size: 16px;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 /* end  */
-#shadow-host-companion{
+#shadow-host-companion {
   padding: 0px;
+}
+
+.footer-social-link .fa-brands,
+.fab {
+  font-size: 28px;
+}
+
+.submit-btn button {
+  cursor: pointer;
 }

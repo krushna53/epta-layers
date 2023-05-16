@@ -73,7 +73,7 @@ function Contact() {
 
   return (
     <>
-      <div className="contact-epta-layer-section">
+      <div  id="Getintouch" className="contact-epta-layer-section">
         <div className="contact-epta-layer-wrapper">
           <div className="contact-epta-layer-container">
             <h2 data-aos="fade-up" data-aos-offset="500">
