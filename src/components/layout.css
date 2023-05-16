@@ -285,7 +285,7 @@ section.offerings {
 
 .offerings .dec p {
   font-size: 16px;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 
 .offerings .right .dec .img {
@@ -328,6 +328,10 @@ section.offerings {
   margin-top: 20px;
   background: none;
   border: 1px solid black
+}
+.btn button a{
+  text-decoration: none;
+  color: #000;
 }
 
 /* end */
@@ -383,7 +387,7 @@ section.offerings {
   margin-left: 20%;
   margin-bottom: 0px;
   font-size: 16px;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 .box {
@@ -399,7 +403,7 @@ section.offerings {
   margin: auto;
   margin-top: 20px;
   font-size: 16px;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 /* end  */

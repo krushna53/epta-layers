@@ -25,7 +25,7 @@ const Offerings = () => {
                         <p>Open Systems interconnection (OSI) model</p>
                     </div>
                     <div className='btn'>
-                        <button>See our Offerings</button>
+                        <button> <a href='#offerings'>See our Offerings</a></button>
                     </div>
                 </div>
             </div>
