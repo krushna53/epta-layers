@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import banner_image from "../images/banner-image.png";
+// import banner_image from "../images/";
 import banner_des_image from '../images/logo-image.png';
 import banner_mobile_image from '../images/banner-mobile-image.jpg';
 import Aos from 'aos';
@@ -14,7 +14,7 @@ const Banner = () => {
             <div className='banner-wrapper'>
                 <div className='banner-container'>
                     <div className='banner-image'>
-                        <img src={banner_image}/>
+                        <img src="../images/Epta homepage banner v1.2.png"/>
                     </div>
                     <div className='banner-mobile-image'>
                         <img src={banner_mobile_image}/>
