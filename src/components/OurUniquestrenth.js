@@ -19,7 +19,7 @@ function Ouruniquestrenth(){
                                 <span>EXTENDED ARM OF</span>
                                 <h2>OEMs</h2>
                                 <p>Epta works with world-leading OEMs. We specialize in implementing their unique 
-                                solutions and offering long-term support
+                                solutions and offering long-term support.
                                 </p>
                             </div>
                             <div className="our-unique-strenth-folder">

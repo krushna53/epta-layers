@@ -17,7 +17,7 @@ function SolutionOffering() {
                            with a keen focus on network architecture.
                         </p> */}
                         <p>
-                            Epta assists in visualizing and communicating how IT Networks<br/> operate, with a keen focus on network architecture
+                            Epta assists in visualizing and communicating how IT Networks<br/> operate, with a keen focus on network architecture.
                         </p>
                     </div>
                     <div className="solution-offering-right-section" data-aos="fade-up" data-aos-offset="300" data-aos-duration="3000">
