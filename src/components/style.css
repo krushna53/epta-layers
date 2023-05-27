@@ -52,7 +52,8 @@ html{
 }
 .solution-offering-wrapper{
     display: flex;
-    max-width: 1195px;
+    max-width: 100%;
+    width: 90vw;
     margin: 0px auto 0px auto;
     color: white;
     padding-top: 80px;
@@ -156,7 +157,8 @@ html{
 }
 .our-unique-strenth-wrapper{
     display: flex;
-    max-width: 1195px;
+    max-width: 100%;
+    width: 90vw;
     margin: 0px auto 0px auto;
 }
 .our-unique-strenth-left-section{
@@ -192,15 +194,15 @@ html{
     margin: 5px 0px 5px 0px;
 }
 .our-unique-strenth-folder p{
-    font-size: 17px;
-    line-height: 27px;
+    font-size: 15px;
+    line-height: 23px;
 }
 .our-unique-strenth-section {
     background-color: #d2d2da;
     padding: 100px 0px 50px 0px;
 }
 .our-unique-image{
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 .contact-epta-layer-wrapper{
     max-width: 1211px;
@@ -246,6 +248,7 @@ form h2{
     max-width: 384px;
     position: relative;
     transform: translateY(-100px);
+    display: none;
 }
 .submit-btn {
     max-width: 240px;
@@ -796,13 +799,13 @@ form h2{
     }
     .banner-mobile-image img {
         width: 100%;
-        filter: brightness(0.9);
+        /* filter: brightness(0.9); */
     }
     .our-unique-strenth-wrapper {
         display: flex;
         flex-direction: column;
         max-width: 337px;
-        gap: 75px;
+        gap: 40px;
     }
     .our-unique-strenth-left-section{
         width: 100%;
@@ -814,8 +817,8 @@ form h2{
         height: auto;
     }
     .our-unique-strenth-left-section h2 {
-        font-size: 54px;
-        line-height: 67px;
+        font-size: 41px;
+        line-height: 44px;
     }
     .our-unique-strenth-folder {
         max-width: 319px;
@@ -824,17 +827,17 @@ form h2{
         width: 134px;
     }
     .our-unique-image {
-        margin-bottom: 15px;
+        margin-bottom: 0px;
     }
     .our-unique-strenth-folder span {
         font-size: 13px;
     }
     .our-unique-strenth-folder h2 {
-        font-size: 31px;
+        font-size: 26px;
     }
     .our-unique-strenth-folder p {
-        font-size: 14px;
-        line-height: 27px;
+        font-size: 15px;
+        line-height: 23px;
     }
     .our-unique-strenth-container {
         display: flex;
@@ -862,6 +865,7 @@ form h2{
     .contact-epta-layer-container-image {
         max-width: 100%;
         transform: translateY(0px);
+        display: none;
     }
     .inner-input textarea {
         padding: 4px 9px;
@@ -881,16 +885,16 @@ form h2{
     }
     .contact-background2 {
         position: absolute;
-        top: 7.1%;
-        left: -37%;
+        top: 5%;
+        left: -33%;
         bottom: auto;
-        transform: rotate(90deg);
+        transform: rotate(98deg);
     }
     .contact-background1 img {
         width: 62px;
     }
     .contact-background2 img {
-        width: 417px;
+        width: 280px;
     }
     .footer-image img {
         width: 172px;
@@ -974,4 +978,10 @@ form h2{
     .SolutionOfferingsDetails .wrapper .image img {
         width: 100%;
     }   
+    .offerings .left .img img{
+display: none;
+    }
+    .our-unique-strenth-section{
+        padding: 10px 0px 10px 0px;
+    }
 }
