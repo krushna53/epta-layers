@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react"
 import contact_image from "../images/contact-image.jpg"
 import contact_background1 from "../images/banner-background2.png"
-import contact_background2 from "../images/Frame-1.png"
+import contact_background2 from "../images/Frame-2.png"
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from "@emailjs/browser"
