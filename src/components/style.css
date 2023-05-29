@@ -343,9 +343,9 @@ form h2 {
 
 .contact-background2 {
     position: absolute;
-    bottom: -0.1%;
+    bottom: -4.9%;
     left: 0%;
-    transform: rotate(180deg);
+
 }
 
 .contact-background2 img {
@@ -355,14 +355,17 @@ form h2 {
 .banner-mobile-image {
     display: none;
 }
-.contact-epta-layer-container-image{
+
+.contact-epta-layer-container-image {
     display: block;
 }
-.contact-epta-layer h2{
+
+.contact-epta-layer h2 {
     font-size: 54px;
     font-weight: 600;
     line-height: 1;
 }
+
 @media only screen and (max-width: 1024px) {
     .banner-des-image img {
         width: 211px;
@@ -1106,10 +1109,11 @@ form h2 {
 
     .contact-background2 {
         position: absolute;
-        top: -5%;
-        left: -27%;
+        top: -7%;
+        right: -13%;
         bottom: auto;
-        transform: rotate(235deg);}
+        transform: rotate(179.6deg);
+    }
 
     .contact-background1 img {
         width: 62px;
@@ -1227,7 +1231,22 @@ form h2 {
     .our-unique-strenth-section {
         padding: 10px 0px 10px 0px;
     }
+
+    .banner-wrapper {
+        background: url(../images/Epta\ homepage\ banner\ v1.2.png)no-repeat;
+        background-size: cover;
+        background-position: right;
+        height: 400px;
+    }
+
+    .banner-mobile-image {
+        display: none;
+    }
+    .banner-des-folder.aos-init.aos-animate {
+        margin: 50px 0px;
+    }
 }
+
 /* .offerings .left .img img {
     display: block;
 } */

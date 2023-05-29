@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react'
 // import banner_image from "../images/";
 import banner_des_image from '../images/logo-image.png';
-import banner_mobile_image from '../images/banner-mobile-image.jpg';
+import banner_mobile_image from '../images/b1.png';
+import banner_mobile_image1 from '../images/b2.png';
 import Aos from 'aos';
 
 const Banner = () => {
@@ -18,6 +19,7 @@ const Banner = () => {
                     </div>
                     <div className='banner-mobile-image'>
                         <img src={banner_mobile_image}/>
+                        
                     </div>
                     <div className='banner-des-folder' data-aos="fade-up">
                         <div className='banner-des-image'>
