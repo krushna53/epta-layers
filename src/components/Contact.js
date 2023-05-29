@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react"
 import contact_image from "../images/contact-image.jpg"
 import contact_background1 from "../images/banner-background2.png"
-import contact_background2 from "../images/Frame-2.png"
+import contact_background2 from "../images/Untitled_design.png"
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from "@emailjs/browser"
@@ -89,7 +89,7 @@ function Contact() {
                 To provide the best IT infrastructure solutions and help our
                 customers improve their business continuity. We aim to become
                 the most reliable technology partner for all our esteemed
-                customers
+                customers.
               </p>
               <form ref={form} action="" onSubmit={sendEmail}>
                 <h2>Get in touch</h2>
