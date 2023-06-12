@@ -1,21 +1,14 @@
 import * as React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 import Home from "./Home";
-import About from "./About";
 import { ToastContainer } from "react-toastify";
 import "../css/aos.css";
 import "../components/style.css";
 
 const IndexPage = () => (
   <Layout>
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-    </Router>
+<Home/>
     <ToastContainer
       position="top-right"
       autoClose={5000}
