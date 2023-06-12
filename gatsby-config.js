@@ -8,6 +8,9 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  flags: {
+    DEV_SSR: true
+  },
   siteMetadata: {
     title: `Epta Layers`,
     description: `A SINGLE-POINT ENTERPRISE SOLUTIONS PROVIDER
