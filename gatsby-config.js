@@ -3,17 +3,21 @@
  *
  * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
  */
+
+/**
+ * @type {import('gatsby').GatsbyConfig}
+ */
 module.exports = {
+  flags: {
+    DEV_SSR: true
+  },
   siteMetadata: {
     title: `Epta Layers`,
     description: `A SINGLE-POINT ENTERPRISE SOLUTIONS PROVIDER
 We work with IT world leaders to deliver
 tailor-made solutions.`,
     author: `@gatsbyjs`,
-    siteUrl: `https://eptalayersmain.gatsbyjs.io/`,
-  },
-  flags: {
-    DEV_SSR: false
+    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -37,4 +41,4 @@ tailor-made solutions.`,
       },
     },
   ],
-};
+}
