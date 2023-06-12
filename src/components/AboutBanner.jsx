@@ -1,6 +1,6 @@
 import React from "react"
 
-const Banner = () => {
+const AboutBanner = () => {
   return (
     <>
       <section className="about_banner">
@@ -13,4 +13,4 @@ const Banner = () => {
   )
 }
 
-export default Banner
+export default AboutBanner
