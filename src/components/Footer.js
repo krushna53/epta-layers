@@ -7,7 +7,7 @@ function Footer() {
             <div className="footer-section">
                 <div className="footer-wrapper">
                     <div className="footer-image">
-                     <a href="/"> <img src={footer_image} alt="img" /> </a>  
+                        <img src={footer_image} />
                     </div>
                     <div className="footer-container">
                         <h2 className="contactUs-title">Contact us</h2>
