@@ -13,7 +13,7 @@ tailor-made solutions.`,
     siteUrl: `https://eptalayersmain.gatsbyjs.io/`,
   },
   flags: {
-    DEV_SSR: true
+    DEV_SSR: false
   },
   plugins: [
     `gatsby-plugin-image`,
