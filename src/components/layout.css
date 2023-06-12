@@ -472,7 +472,8 @@ section.offerings {
   font-size: 17px;
   font-weight: 500;
 }
-.right_con p.second{
+
+.right_con p.second {
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -529,4 +530,155 @@ section.business_continuity {
   color: #fff;
   width: 319px;
   margin-top: 10px;
+}
+
+/* Our Guiding Principles css */
+
+.OurGuiding {
+  background: #d2d2da;
+  position: relative;
+  /* padding: 50px 0 0 0; */
+}
+
+/* 
+.OurGuiding img.ban {
+  width: 100px;
+  transform: rotate(201deg);
+  position: absolute;
+  right: -2px;
+  top: 0;
+} */
+.OurGuiding_wrapper {
+  width: 90vw;
+  margin: auto;
+
+}
+
+.OurGuiding h2 {
+  width: 220px;
+  margin-left: 58px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.OurGuiding_wrapper .d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.left_box,
+.right_box {
+  position: relative;
+}
+
+.left_box .con {
+  color: #fff;
+  position: absolute;
+  z-index: 0;
+  top: 16%;
+  left: 25%;
+  width: 294px;
+  margin: auto;
+}
+
+.left_box h5,
+.right_box h5 {
+  font-size: 25px;
+}
+
+.left_box p,
+.right_box p {
+  font-size: 18px;
+}
+
+.right_box .con {
+  color: #fff;
+  position: absolute;
+  z-index: 0;
+  top: 16%;
+  right: 20%;
+  /* bottom: 100%; */
+  width: 340px;
+  margin: auto;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+}
+
+.OurGuiding .wrapper {
+  background-size: 18%;
+}
+
+.OurGuiding .wrapper .d-flex p {
+  background: none;
+}
+
+.santos {
+  background: #fff;
+  width: 90vw;
+  margin: auto;
+}
+
+.santos .wrapper {
+  display: flex;
+  background: none;
+  justify-content: center;
+  /* align-items: center; */
+  margin: auto;
+  padding: 50px 0px;
+}
+.santos_right_con {
+  width: 435px;
+  margin: 0 auto;
+}
+/* .santos_left_img {
+  width: 100%;
+} */
+.santos_left_img {
+  width: 500px;
+}
+.santos_left_img img {
+  width: 380px;
+  height: 100%;
+}
+
+.santos_right_con h3{
+  font-size: 37px;
+  max-width: 170px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  line-height: 1.1;
+}
+.santos_right_con p{
+  font-size: 16px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.santos_right_con button{
+  background: none;
+  margin-top: 30px;
+  width: 200px;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.santos_right_con button a{
+  text-decoration: none;
+  color: #000;
+}
+
+.WeAre .form_con{
+  margin-top: 30px;
+}
+.WeAre .contact-form p {
+  width: 300px;
 }

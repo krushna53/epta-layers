@@ -5,7 +5,7 @@ import Networking from '../components-about-us/Networking'
 import OurGuiding from '../components-about-us/OurGuiding'
 import Santhosh from '../components-about-us/Santhosh'
 import WeAre from '../components-about-us/WeAre'
-import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 const About = () => {
     return (
@@ -16,8 +16,11 @@ const About = () => {
             <OurGuiding />
             <Santhosh />
             <WeAre />
-            {/* <Contact /> */}
-
+            <Footer />
+            <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            />
         </>
     )
 }

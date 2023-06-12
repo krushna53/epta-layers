@@ -252,7 +252,7 @@ html {
 }
 
 .contact-epta-layer-wrapper {
-    max-width: 1211px;
+    max-width: 90vw;
     margin-right: 0px;
     margin-left: auto;
 }
@@ -343,7 +343,7 @@ form h2 {
 
 .contact-background2 {
     position: absolute;
-    bottom: -4.9%;
+    bottom: -1%;
     left: 0%;
 
 }
@@ -1242,8 +1242,69 @@ form h2 {
     .banner-mobile-image {
         display: none;
     }
+
     .banner-des-folder.aos-init.aos-animate {
         margin: 50px 0px;
+    }
+
+
+    /* about us page */
+    .left_img {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .business_continuity .d-flex {
+        display: block;
+    }
+
+    .right_img {
+        background-size: cover;
+        min-height: 220px;
+        background-position: 70px;
+    }
+
+    .business_continuity .left_con {
+        margin-top: 20px;
+        width: auto;
+    }
+
+    .santos_right_con {
+        width: 100%;
+    }
+
+    .right_con {
+        margin-left: 25px;
+    }
+
+    .right_con .img {
+        width: 100%;
+    }
+
+    .OurGuiding_wrapper .d-flex {
+        display: block;
+    }
+
+    .left_box h5,
+    .right_box h5 {
+        font-size: 20px;
+    }
+
+    .OurGuiding_wrapper  .d-flex p {
+        padding: 2px;
+        font-size: 13px;
+    }
+
+
+    .left_box .con {
+        top: 13%;
+        left: 17%;
+        width: 235px;
+    }
+    .right_box .con {   
+        top: 13%;
+        right: 13%;
+        width: 257px;
     }
 }
 
