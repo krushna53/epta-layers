@@ -1252,6 +1252,7 @@ form h2 {
     .left_img {
         background-size: cover;
         background-position: center;
+        min-height: 360px;
     }
 
     .business_continuity .d-flex {
@@ -1282,7 +1283,7 @@ form h2 {
     }
 
     .OurGuiding_wrapper .d-flex {
-        display: block;
+        flex-direction: column;
     }
 
     .left_box h5,
@@ -1290,7 +1291,7 @@ form h2 {
         font-size: 20px;
     }
 
-    .OurGuiding_wrapper  .d-flex p {
+    .OurGuiding_wrapper .d-flex p {
         padding: 2px;
         font-size: 13px;
     }
@@ -1301,13 +1302,42 @@ form h2 {
         left: 17%;
         width: 235px;
     }
-    .right_box .con {   
+
+    .right_box .con {
         top: 13%;
-        right: 13%;
+        right: 18%;
         width: 257px;
     }
-}
 
+    .left_box,
+    .right_box {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        width: 400px;
+    }
+
+    .santos_left_img img,
+    .santos_left_img {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 380px){
+    .left_box,
+    .right_box{
+        width: 100%;
+    }
+    .right_box .con {
+        top: 13%;
+        right: 12%;
+        width: 240px;
+    }
+    .OurGuiding_wrapper .d-flex p{
+        line-height: 1.1;
+    }
+}
 /* .offerings .left .img img {
     display: block;
 } */
