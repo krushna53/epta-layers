@@ -458,8 +458,8 @@ section.offerings {
   background: url('../images/12.png')no-repeat;
   min-height: 520px;
   width: 100%;
-  background-size: 130%;
-  background-position: 110% 15%;
+  background-size: 115%;
+  background-position: 200% 140%;
 }
 
 /* .right_con {
@@ -531,6 +531,7 @@ section.business_continuity {
   color: #fff;
   width: 319px;
   margin-top: 10px;
+  line-height: 1.6;
 }
 
 /* Our Guiding Principles css */
@@ -567,26 +568,29 @@ section.business_continuity {
   justify-content: center;
   align-items: center;
   margin: auto;
-  gap: 0px;
   width: 95vw;
 }
-.left_box{
+
+.left_box {
   transform: translateX(10%);
   -webkit-transform: translateX(10%);
   -moz-transform: translateX(10%);
   -ms-transform: translateX(10%);
   -o-transform: translateX(10%);
 }
-.right_box{
+
+.right_box {
   transform: translateX(-10%);
   -webkit-transform: translateX(-10%);
   -moz-transform: translateX(-10%);
   -ms-transform: translateX(-10%);
   -o-transform: translateX(-10%);
 }
+
 .left_box,
 .right_box {
   position: relative;
+  width: 560px;
 }
 
 .left_box .con {
@@ -616,7 +620,7 @@ section.business_continuity {
   top: 16%;
   right: 20%;
   /* bottom: 100%; */
-  width: 340px;
+  width: 311px;
   margin: auto;
 }
 
@@ -631,6 +635,7 @@ img {
 
 .OurGuiding .wrapper .d-flex p {
   background: none;
+  padding: 10px 0px;
 }
 
 .santos {
@@ -647,35 +652,39 @@ img {
   margin: auto;
   padding: 50px 0px;
 }
+
 .santos_right_con {
   width: 435px;
   margin: 0 auto;
 }
+
 /* .santos_left_img {
   width: 100%;
 } */
 .santos_left_img {
   width: 500px;
 }
+
 .santos_left_img img {
   width: 380px;
   height: 100%;
 }
 
-.santos_right_con h3{
+.santos_right_con h3 {
   font-size: 37px;
   max-width: 170px;
   margin-bottom: 25px;
   margin-top: 10px;
   line-height: 1.1;
 }
-.santos_right_con p{
+
+.santos_right_con p {
   font-size: 16px;
-    font-weight: 500;
-    margin: 30px 0;
+  font-weight: 500;
+  margin: 30px 0;
 }
 
-.santos_right_con button{
+.santos_right_con button {
   background: none;
   margin-top: 30px;
   width: 200px;
@@ -687,14 +696,16 @@ img {
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
 }
-.santos_right_con button a{
+
+.santos_right_con button a {
   text-decoration: none;
   color: #000;
 }
 
-.WeAre .form_con{
+.WeAre .form_con {
   margin-top: 30px;
 }
+
 .WeAre .contact-form p {
   width: 300px;
 }
