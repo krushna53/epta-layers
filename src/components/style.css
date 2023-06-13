@@ -1324,20 +1324,33 @@ form h2 {
         width: 100%;
     }
 }
-@media only screen and (max-width: 380px){
+
+@media only screen and (max-width: 360px) {
+
     .left_box,
-    .right_box{
+    .right_box {
         width: 100%;
     }
+
     .right_box .con {
         top: 13%;
         right: 12%;
         width: 240px;
     }
-    .OurGuiding_wrapper .d-flex p{
+
+    .OurGuiding_wrapper .d-flex p {
         line-height: 1.1;
     }
+
+    .right_img {
+        background-position: 12px;
+    }
+
+    .left_img {
+        min-height: 300px;
+    }
 }
+
 /* .offerings .left .img img {
     display: block;
 } */
