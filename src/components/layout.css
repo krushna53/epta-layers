@@ -456,10 +456,10 @@ section.offerings {
 
 .left_img {
   background: url('../images/12.png')no-repeat;
-  min-height: 520px;
+  background-position: 306% 190%;
+  background-size: 109%;
+  min-height: 540px;
   width: 100%;
-  background-size: 115%;
-  background-position: 200% 140%;
 }
 
 /* .right_con {
