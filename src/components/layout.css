@@ -426,14 +426,19 @@ section.offerings {
 
 /* css for about us page */
 .about_banner {
-  background: url('../images/b2.png')no-repeat;
+  background: url('../images/Epta\ About\ page\ banner.png')no-repeat;
   background-position: left;
-  min-height: 310px;
+  background-position: unset;
+  min-height: 300px;
   background-size: cover;
   display: flex;
   align-items: center;
 }
-
+.OurGuiding .wrapper{
+  background: url(../images/Screenshot_8.png)no-repeat;
+  background-size: 26%;
+    background-position: 100% 0;
+}
 .about_banner_title {
   display: flex;
   /* align-items: center; */
@@ -590,14 +595,14 @@ section.business_continuity {
 .left_box,
 .right_box {
   position: relative;
-  width: 560px;
+  width: 100%;
 }
 
 .left_box .con {
   color: #fff;
   position: absolute;
   z-index: 0;
-  top: 16%;
+  top: 20%;
   left: 25%;
   width: 294px;
   margin: auto;
@@ -617,8 +622,8 @@ section.business_continuity {
   color: #fff;
   position: absolute;
   z-index: 0;
-  top: 16%;
-  right: 20%;
+  top: 20%;
+  right: 25%;
   /* bottom: 100%; */
   width: 311px;
   margin: auto;
@@ -630,7 +635,7 @@ img {
 }
 
 .OurGuiding .wrapper {
-  background-size: 18%;
+  background-size: 15%;
 }
 
 .OurGuiding .wrapper .d-flex p {
