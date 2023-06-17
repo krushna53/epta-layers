@@ -647,6 +647,7 @@ img {
   background: #fff;
   width: 90vw;
   margin: auto;
+  margin-right: 0;
 }
 
 .santos .wrapper {
@@ -713,4 +714,18 @@ img {
 
 .WeAre .contact-form p {
   width: 300px;
+}
+.WeAre .contact-background2 img {
+  width: 400px;
+}
+.WeAre .contact-epta-layer-container h2 {
+  font-size: 40px;
+  max-width: 215px;
+  font-weight: 500;
+}
+
+.WeAre .contact-background1 {
+  position: absolute;
+  top: 48.3%;
+  right: 15.4%;
 }

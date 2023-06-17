@@ -6,7 +6,7 @@ const Santhosh = () => {
       <section className="santos">
         <div className="wrapper">
           <div className="santos_left_img">
-            <img src="../images/Epta Santhosh photo.png" alt="santhosh" />
+            <img src="../images/Santhosh photo v2 (1).png" alt="santhosh" />
           </div>
           <div className="santos_right_con">
             <h3>Santhosh Baragur</h3>
