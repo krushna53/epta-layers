@@ -475,7 +475,7 @@ section.offerings {
   max-width: 382px;
   margin: auto;
   font-size: 17px;
-  font-weight: 500;
+  /* font-weight: 500; */
 }
 
 .right_con p.second {
@@ -571,12 +571,13 @@ section.business_continuity {
 .OurGuiding_wrapper .d-flex {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: auto;
-  width: 95vw;
+    margin-top: 30px;
+    margin-right: 0;
+    width: 80vw;
 }
 
-.left_box {
+/* .left_box {
   transform: translateX(10%);
   -webkit-transform: translateX(10%);
   -moz-transform: translateX(10%);
@@ -590,20 +591,22 @@ section.business_continuity {
   -moz-transform: translateX(-10%);
   -ms-transform: translateX(-10%);
   -o-transform: translateX(-10%);
-}
+} */
 
 .left_box,
 .right_box {
   position: relative;
-  width: 100%;
 }
-
+.left_box img,
+.right_box img{
+  width:500px;
+}
 .left_box .con {
   color: #fff;
   position: absolute;
   z-index: 0;
-  top: 20%;
-  left: 25%;
+  top: 50px;
+  left: 12%;
   width: 294px;
   margin: auto;
 }
@@ -622,10 +625,10 @@ section.business_continuity {
   color: #fff;
   position: absolute;
   z-index: 0;
-  top: 20%;
+  top: 50px;
   right: 25%;
   /* bottom: 100%; */
-  width: 311px;
+  width: 321px;
   margin: auto;
 }
 
@@ -636,6 +639,7 @@ img {
 
 .OurGuiding .wrapper {
   background-size: 15%;
+  padding: 70px 0;
 }
 
 .OurGuiding .wrapper .d-flex p {
@@ -686,7 +690,7 @@ img {
 
 .santos_right_con p {
   font-size: 16px;
-  font-weight: 500;
+  /* font-weight: 500; */
   margin: 30px 0;
 }
 
