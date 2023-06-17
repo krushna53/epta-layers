@@ -97,6 +97,7 @@ const WeAre = () => {
                     onChange={handleEmailChange}
                     required
                   />
+                  
                 </div>
                 <div className="inner-input">
                   <label className="ipLabels">Text:</label>

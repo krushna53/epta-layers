@@ -1323,6 +1323,17 @@ form h2 {
     .santos_left_img {
         width: 100%;
     }
+    .santos{
+        margin: auto;
+    }
+    .WeAre  .contact-background1 {
+        position: absolute;
+        top: 57%;
+        right: 3.4%;
+    }
+    .WeAre .contact-background2 img{
+        width: 280px;
+    }
 }
 
 @media only screen and (max-width: 360px) {
@@ -1348,6 +1359,9 @@ form h2 {
 
     .left_img {
         min-height: 300px;
+    }
+    .santos{
+        margin: auto;
     }
 }
 
