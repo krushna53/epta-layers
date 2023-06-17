@@ -1252,7 +1252,7 @@ form h2 {
     .left_img {
         background-size: cover;
         background-position: center;
-        min-height: 360px;
+        min-height: 250px;
     }
 
     .business_continuity .d-flex {
@@ -1266,7 +1266,7 @@ form h2 {
     }
 
     .business_continuity .left_con {
-        margin-top: 20px;
+        padding-top: 20px;
         width: auto;
     }
 
@@ -1293,51 +1293,93 @@ form h2 {
 
     .OurGuiding_wrapper .d-flex p {
         padding: 2px;
-        font-size: 13px;
+        font-size: 14px
     }
 
 
     .left_box .con {
         top: 13%;
         left: 17%;
-        width: 235px;
+        width: 266px;
     }
 
     .right_box .con {
-        top: 13%;
-        right: 18%;
-        width: 257px;
+        top: 6%;
+        right: 11%;
+        width: 293px;
     }
 
-    .left_box,
-    .right_box {
-        transform: translateX(0);
-        -webkit-transform: translateX(0);
-        -moz-transform: translateX(0);
-        -ms-transform: translateX(0);
-        -o-transform: translateX(0);
-        width: 400px;
-    }
 
     .santos_left_img img,
     .santos_left_img {
         width: 100%;
     }
-    .santos{
+
+    .santos {
         margin: auto;
     }
-    .WeAre  .contact-background1 {
+
+    .WeAre .contact-background1 {
         position: absolute;
         top: 57%;
         right: 3.4%;
     }
-    .WeAre .contact-background2 img{
+
+    .WeAre .contact-background2 img {
         width: 280px;
+    }
+
+    .networking {
+        padding: 20px 0;
+    }
+
+    .business_continuity h2 {
+        font-size: 39px;
+        line-height: 1.2;
+        width: 338px;
+    }
+
+    .business_continuity p {
+        width: 280px;
+        font-size: 16px;
+    }
+
+    .OurGuiding h2 {
+        width: 270px;
+        font-size: 39px;
+        font-weight: 400;
+    }
+
+    .santos_right_con h3 {
+        font-size: 39px;
+        font-weight: 400;
+    }
+
+    .WeAre .contact-epta-layer-container h2 {
+        font-size: 39px;
+        font-weight: 400;
+    }
+
+    .left_box,
+    .right_box {
+        width: 400px;
+    }
+
+    .left_box img,
+    .right_box img {
+        width: 100%;
+    }
+
+    .OurGuiding_wrapper .d-flex {
+        margin-right: auto;
+    }
+
+    .OurGuiding_wrapper .d-flex p {
+        font-size: 16px;
     }
 }
 
 @media only screen and (max-width: 360px) {
-
     .left_box,
     .right_box {
         width: 100%;
@@ -1360,8 +1402,31 @@ form h2 {
     .left_img {
         min-height: 300px;
     }
-    .santos{
+
+    .santos {
         margin: auto;
+    }
+
+    .business_continuity h2 {
+        font-size: 39px;
+        line-height: 1.2;
+        width: 100%;
+    }
+
+    .left_box,
+    .right_box {
+        width: 300px;
+    }
+
+    .left_box .con {
+        top: 12%;
+        left: 8%;
+    }
+
+    .right_box .con {
+        top: 6%;
+        right: 4%;
+        width: 266px;
     }
 }
 
