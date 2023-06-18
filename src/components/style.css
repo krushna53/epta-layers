@@ -639,7 +639,7 @@ form h2 {
 
     .contact-form h2,
     form h2 {
-        font-size: 18px !important;
+        font-size: 18px;
     }
 }
 
@@ -1250,9 +1250,10 @@ form h2 {
 
     /* about us page */
     .left_img {
-        background-size: cover;
+        /* background-size: cover;
         background-position: center;
-        min-height: 250px;
+        min-height: 250px; */
+        display: none;
     }
 
     .business_continuity .d-flex {
@@ -1275,8 +1276,9 @@ form h2 {
     }
 
     .right_con {
-        margin-left: 25px;
+        margin-left: 16px;
     }
+
 
     .right_con .img {
         width: 100%;
@@ -1331,6 +1333,7 @@ form h2 {
 
     .networking {
         padding: 20px 0;
+        margin: auto;
     }
 
     .business_continuity h2 {
@@ -1340,7 +1343,7 @@ form h2 {
     }
 
     .business_continuity p {
-        width: 280px;
+        width: 300px;
         font-size: 16px;
     }
 
@@ -1355,10 +1358,10 @@ form h2 {
         font-weight: 400;
     }
 
-    .WeAre .contact-epta-layer-container h2 {
+    /* .WeAre .contact-epta-layer-container h2 {
         font-size: 39px;
         font-weight: 400;
-    }
+    } */
 
     .left_box,
     .right_box {
@@ -1377,6 +1380,13 @@ form h2 {
     .OurGuiding_wrapper .d-flex p {
         font-size: 16px;
     }
+    .right_con p{
+        font-size: 16px;
+      }
+    .WeAre  .form_con h2{
+        font-size: 24px ;
+        font-weight: 500;
+      }
 }
 
 @media only screen and (max-width: 360px) {
@@ -1399,10 +1409,10 @@ form h2 {
     .right_img {
         background-position: 12px;
     }
-
+/* 
     .left_img {
         min-height: 300px;
-    }
+    } */
 
     .santos {
         margin: auto;

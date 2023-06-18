@@ -11,7 +11,7 @@ const Networking = () => {
               <p>
                 Epta Layers is a single-point enterprise solutions provider that
                 works with IT world leaders to deliver tailor-made solutions for
-                networking and communication infrastructure.
+                networking and communication Infrastructure.
               </p>
               <p className="second">
                 Epta stands for 'seven' in Greek. It encapsulates our vision to
@@ -19,7 +19,7 @@ const Networking = () => {
               </p>
               <div className="img">
                 <img src="../images/OSI Model new.png" alt="osl" />
-                <p>Open Systems interconnection (OSI) model</p>
+                <p>Open Systems Interconnection (OSI) model</p>
               </div>
             </div>
           </div>
