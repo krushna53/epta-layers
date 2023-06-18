@@ -8,7 +8,6 @@ const Santhosh = () => {
           <div className="santos_left_img">
             <img src="../images/Santhosh photo v2 (1).png" alt="santhosh" />
           </div>
-
           <div className="santos_right_con">
             <h2>Santhosh Baragur</h2>
             <p>
