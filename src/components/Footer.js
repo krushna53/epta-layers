@@ -1,5 +1,6 @@
 import React from "react";
 import footer_image from '../images/logo-image.png';
+import { Link } from "gatsby";
 
 function Footer() {
     return (
@@ -7,7 +8,7 @@ function Footer() {
             <div className="footer-section">
                 <div className="footer-wrapper">
                     <div className="footer-image">
-                        <img src={footer_image} />
+                        <Link to='/'><img src={footer_image} alt="footer_image" /></Link>
                     </div>
                     <div className="footer-container">
                         <h2 className="contactUs-title">Contact us</h2>

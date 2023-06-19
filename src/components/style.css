@@ -263,20 +263,21 @@ html {
     padding: 100px 0px 50px 0px;
 }
 
+/* 
 .contact-epta-layer-container h2 {
     font-size: 52px;
     max-width: 290px;
-}
+} */
 
 .contact-form {
     max-width: 313px;
 }
 
-.contact-form h2,
+/* .contact-form h2,
 form h2 {
     font-size: 18px;
     margin-bottom: 10px;
-}
+} */
 
 .contact-form p {
     font-size: 16px;
@@ -348,9 +349,10 @@ form h2 {
 
 }
 
+/* 
 .contact-background2 img {
     width: 485px;
-}
+} */
 
 .banner-mobile-image {
     display: none;
@@ -606,10 +608,10 @@ form h2 {
         gap: 10px;
     }
 
-    .contact-epta-layer-container h2 {
+    /* .contact-epta-layer-container h2 {
         font-size: 46px;
         max-width: 258px;
-    }
+    } */
 
     .contact-form {
         max-width: 293px;
@@ -637,10 +639,10 @@ form h2 {
         font-size: 49px !important;
     }
 
-    .contact-form h2,
+    /* .contact-form h2,
     form h2 {
         font-size: 18px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 768px) {
@@ -815,10 +817,10 @@ form h2 {
         padding: 100px 0px 50px 17px;
     }
 
-    .contact-epta-layer-container h2 {
+    /* .contact-epta-layer-container h2 {
         font-size: 36px;
         max-width: 232px;
-    }
+    } */
 
     .contact-form {
         max-width: 276px;
@@ -1332,7 +1334,7 @@ form h2 {
     }
 
     .networking {
-       padding: 30px 0 30px 0;
+        padding: 30px 0 30px 0;
         margin: auto;
     }
 
@@ -1340,7 +1342,7 @@ form h2 {
         font-size: 39px;
         line-height: 1.2;
         width: 338px;
-       padding-top: 24px;
+        padding-top: 24px;
     }
 
     .business_continuity p {
@@ -1381,13 +1383,15 @@ form h2 {
     .OurGuiding_wrapper .d-flex p {
         font-size: 16px;
     }
-    .right_con p{
+
+    .right_con p {
         font-size: 16px;
-      }
-    .WeAre  .form_con h2{
-        font-size: 24px ;
+    }
+
+    .WeAre .form_con h2 {
+        font-size: 24px;
         font-weight: 500;
-      }
+    }
 }
 
 @media only screen and (max-width: 360px) {
@@ -1410,7 +1414,8 @@ form h2 {
     .right_img {
         background-position: 12px;
     }
-/* 
+
+    /* 
     .left_img {
         min-height: 300px;
     } */

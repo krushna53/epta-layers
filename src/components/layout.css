@@ -747,3 +747,15 @@ img {
   font-size: 28px;
   font-weight: 500;
 }
+.contact-epta-layer-container h2 {
+  font-size: 37px;
+  font-weight: 500;
+  max-width: 200px;
+}
+.contact-form h2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+.contact-background2 img {
+  width: 400px;
+}
