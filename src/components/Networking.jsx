@@ -3,6 +3,16 @@ import React from "react"
 const Networking = () => {
   return (
     <>
+        <nav aria-label="breadcrumb">
+          <ul className="breadcrumb">
+            <li className="breadcrumb-item">
+              <a href="/">Home</a> /
+            </li>
+            <li className="breadcrumb-item active" aria-current="page">
+              About
+            </li>
+          </ul>
+        </nav>
       <section className="networking">
         <div className="networking_wrapper">
           <div className="d-flex">
