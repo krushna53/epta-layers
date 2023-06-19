@@ -6,9 +6,10 @@ const Networking = () => {
         <nav aria-label="breadcrumb">
           <ul className="breadcrumb">
             <li className="breadcrumb-item">
-              <a href="/">Home</a> /
+              <a className="active" href="/">Home</a> 
             </li>
-            <li className="breadcrumb-item active" aria-current="page">
+            <i class="fa-solid fa-angle-right"></i>
+            <li className="breadcrumb-item" aria-current="page">
               About
             </li>
           </ul>
