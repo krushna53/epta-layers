@@ -4,6 +4,7 @@ import banner_des_image from '../images/logo-image.png';
 import banner_mobile_image from '../images/b1.png';
 import banner_mobile_image1 from '../images/b2.png';
 import Aos from 'aos';
+import { Link } from 'gatsby';
 
 const Banner = () => {
     // useEffect(() => {
@@ -33,7 +34,7 @@ const Banner = () => {
                             tailor-made solutions.
                         </h2>
                         <div className='banner-btn'>
-                            <a href='#offerings'>Learn more</a>
+                            <Link to='About'>Learn more</Link>
                         </div>
                     </div>
                 </div>
