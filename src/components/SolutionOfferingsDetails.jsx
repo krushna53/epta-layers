@@ -64,12 +64,12 @@ const SolutionOfferingsDetails = () => {
           }
         </div>
       </div>
-      <section className='CollaborationArchitecture'>
+      {/* <section className='CollaborationArchitecture'>
         <CollaborationArchitecture />
-      </section>
-      <section className='DataCenterServices'>
+      </section> */}
+      {/* <section className='DataCenterServices'>
         <DataCenterServices />
-      </section>
+      </section> */}
     </section>
   );
 };

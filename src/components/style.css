@@ -427,7 +427,9 @@ form h2 {
         padding-top: 80px;
     }
 
-    .SolutionOfferingsDetails {
+    .SolutionOfferingsDetails,
+    .CollaborationArchitecture,
+    .DataCenterServices {
         padding-left: 20px;
     }
 

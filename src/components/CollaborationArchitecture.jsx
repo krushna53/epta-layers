@@ -8,6 +8,7 @@ const CollaborationArchitecture = () => {
   }, []);
   return (
     <>
+    <section className='CollaborationArchitecture'>
       <div className='wrapper'>
         <div className='box'>
           {dataJson['Collaboration Architecture'].map((d, i) => {
@@ -50,6 +51,7 @@ const CollaborationArchitecture = () => {
           })}
         </div>
       </div>
+    </section>
     </>
   );
 };

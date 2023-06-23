@@ -6,7 +6,8 @@ const DataCenterServices = () => {
         Aos.init({ duration: 2000 });
     }, []);
     return (
-        <>
+        <> 
+        <section className='DataCenterServices'>
             <div className='wrapper'>
                 <div className='box'>
                     {dataJson['Data Center Services'].map((d, i) => {
@@ -49,6 +50,7 @@ const DataCenterServices = () => {
                     })}
                 </div>
             </div>
+        </section>
         </>
     )
 }
