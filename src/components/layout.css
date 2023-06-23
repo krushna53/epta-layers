@@ -32,11 +32,30 @@ html {
   font: sans-serif;
   font-size: var(--font-md);
   line-height: var(--line-height-normal);
-  overflow-y: scroll;
 }
-/* section{
-  height: 700px;
-} */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div#gatsby-focus-wrapper {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+#shadow-host-companion {
+  height: 0;
+}
+
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -792,5 +811,7 @@ img {
   color: #152e6f;
   border-bottom: 1px solid #152e6f;
 }
-.breadcrumb i{
-margin-top: 2px;}
+
+.breadcrumb i {
+  margin-top: 2px;
+}

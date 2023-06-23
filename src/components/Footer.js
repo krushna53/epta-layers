@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 function Footer() {
     return (
         <>
-            <div className="footer-section">
+            <section className="footer-section">
                 <div className="footer-wrapper">
                     <div className="footer-image">
                         <Link to='/'><img src={footer_image} alt="footer_image" /></Link>
@@ -36,7 +36,7 @@ function Footer() {
                         <a href="#"><i className="fa-brands fa-twitter"></i></a>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

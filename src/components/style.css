@@ -26,7 +26,7 @@ html {
     position: absolute;
     top: 17%;
     right: 8%;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
 }
 
 .banner-des-image {

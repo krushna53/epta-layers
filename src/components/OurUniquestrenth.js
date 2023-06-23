@@ -5,13 +5,13 @@ import our_unique_image2 from '../images/our-unique-image2.png';
 function Ouruniquestrenth(){
     return(
         <>
-            <div className="our-unique-strenth-section">
+            <section className="our-unique-strenth-section">
                 <div className="our-unique-strenth-wrapper">
                     <div className="our-unique-strenth-left-section">
-                        <h2 data-aos="fade-up" data-aos-offset="400">Our Unique Strengths</h2>
+                        <h2>Our Unique Strengths</h2>
                     </div>
                     <div className="our-unique-strenth-right-section">
-                        <div className="our-unique-strenth-container" data-aos="fade-down" data-aos-offset="200">
+                        <div className="our-unique-strenth-container">
                             <div className="our-unique-strenth-folder">
                                 <div className="our-unique-image">
                                     <img src={our_unique_image}/>
@@ -36,7 +36,7 @@ function Ouruniquestrenth(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

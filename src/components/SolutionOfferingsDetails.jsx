@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Aos from 'aos';
+// import Aos from 'aos';
 import dataJson from '../Data/data.json'
 import CollaborationArchitecture from './CollaborationArchitecture';
 import DataCenterServices from './DataCenterServices';
@@ -7,10 +7,9 @@ import SolutionOffering from './SolutionOfferings';
 import SolutionOffering_backhround from "../images/solution-offering-background-image.png";
 
 const SolutionOfferingsDetails = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
+
   return (
+    <>
     <section className='SolutionOfferingsDetails'>
       <div className='wrapper'>
         <div className='box'>
@@ -18,7 +17,7 @@ const SolutionOfferingsDetails = () => {
             dataJson['Enterprise Network'].map((d, i) => {
               return (
                 <>
-                <div data-aos="fade-up" data-aos-offset="300">
+                <div>
                   <div className="d-flex" >
                     <p>0{d.id}</p>
                     <h2>{d.title}</h2>
@@ -42,7 +41,7 @@ const SolutionOfferingsDetails = () => {
             dataJson.img.map((d, i) => {
               return (
                 <>
-                  <img data-aos="zoom-in" data-aos-duration="3000" src={d.img} alt="" />
+                  <img src={d.img} alt="" />
                 </>
               )
             })
@@ -64,13 +63,16 @@ const SolutionOfferingsDetails = () => {
           }
         </div>
       </div>
-      <section className='CollaborationArchitecture'>
-        <CollaborationArchitecture />
-      </section>
-      <section className='DataCenterServices'>
-        <DataCenterServices />
-      </section>
+    
+    
     </section>
+      <section className='CollaborationArchitecture'>
+      <CollaborationArchitecture />
+    </section>
+      <section className='DataCenterServices'>
+      <DataCenterServices />
+    </section>
+    </>
   );
 };
 

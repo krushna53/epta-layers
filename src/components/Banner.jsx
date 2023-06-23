@@ -3,7 +3,6 @@ import React, { useEffect } from 'react'
 import banner_des_image from '../images/logo-image.png';
 import banner_mobile_image from '../images/b1.png';
 import banner_mobile_image1 from '../images/b2.png';
-import Aos from 'aos';
 import { Link } from 'gatsby';
 
 const Banner = () => {
@@ -12,7 +11,7 @@ const Banner = () => {
     //   }, []);
   return (
     <>
-        <div className='banner-section'>
+        <section className='banner-section'>
             <div className='banner-wrapper'>
                 <div className='banner-container'>
                     <div className='banner-image'>
@@ -22,7 +21,7 @@ const Banner = () => {
                         <img src={banner_mobile_image}/>
                         
                     </div>
-                    <div className='banner-des-folder' data-aos="fade-up">
+                    <div className='banner-des-folder'>
                         <div className='banner-des-image'>
                             <img src={banner_des_image}/>
                         </div>
@@ -39,7 +38,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </>
   )
 }
