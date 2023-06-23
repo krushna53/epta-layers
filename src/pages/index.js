@@ -6,9 +6,11 @@ import { ToastContainer } from "react-toastify";
 import "../css/aos.css";
 import "../components/style.css";
 
+
 const IndexPage = () => (
+
   <Layout>
-<Home/>
+    <Home />
     <ToastContainer
       position="top-right"
       autoClose={5000}

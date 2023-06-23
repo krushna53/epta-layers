@@ -345,7 +345,10 @@ section.offerings {
   margin: auto;
   padding-left: 75px;
 }
-
+.CollaborationArchitecture,
+.DataCenterServices{
+  padding-left: 75px;
+}
 .wrapper {
   display: flex;
   justify-content: space-between;
