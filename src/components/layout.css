@@ -34,6 +34,7 @@ html {
   line-height: var(--line-height-normal);
   overflow-y: scroll;
 }
+
 /* section{
   height: 700px;
 } */
@@ -301,6 +302,7 @@ section.offerings {
   font-style: italic;
   font-size: 15px;
   font-weight: 600;
+  margin-top: 5px;
 }
 
 .right .img img {
@@ -345,10 +347,12 @@ section.offerings {
   margin: auto;
   padding-left: 75px;
 }
+
 .CollaborationArchitecture,
-.DataCenterServices{
+.DataCenterServices {
   padding-left: 75px;
 }
+
 .wrapper {
   display: flex;
   justify-content: space-between;
@@ -456,6 +460,8 @@ section.offerings {
 
 .about_banner_title img {
   width: 50px;
+  margin-left: 9px;
+  margin-top: 1px;
 }
 
 .networking {
@@ -468,10 +474,10 @@ section.offerings {
 
 .left_img {
   background: url('../images/12.png')no-repeat;
-  background-position: 152% 46px;
-  background-size: 120%;
-  min-height: 540px;
+  background-size: 67.8%;
+  min-height: 100vh;
   width: 100%;
+  background-position: -6% 0%;
 }
 
 /* .right_con {
@@ -524,11 +530,11 @@ section.business_continuity {
 
 .right_img {
   background: url(../images/13.png)no-repeat;
-  background-size: 150%;
-  min-height: 590px;
+  background-size: 135%;
+  min-height: 100vh;
   width: 100%;
   margin: auto;
-  background-position: 32% 25%;
+  background-position: 15% 97%;
 }
 
 .business_continuity h2 {
@@ -795,9 +801,41 @@ img {
   color: #152e6f;
   border-bottom: 1px solid #152e6f;
 }
-.breadcrumb i{
-margin-top: 2px;}
-.section.offerings,
-.solution-offering-section,.SolutionOfferingsDetails,.CollaborationArchitecture, .DataCenterServices,.our-unique-strenth-section,.contact-epta-layer-section{
-    height: 100vh;
+
+.breadcrumb i {
+  margin-top: 2px;
+}
+
+.solution-offering-section,
+section.offerings,
+.SolutionOfferingsDetails,
+.CollaborationArchitecture,
+.DataCenterServices,
+.our-unique-strenth-section,
+.contact-epta-layer-section,
+.networking,
+section.business_continuity,
+.OurGuiding,
+.santos,
+section.WeAre {
+  height: 100vh;
+}
+
+.right_con .img p {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 600;
+
+}
+
+.about_banner_title h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+
+.WeAre .contact-background1 {
+  position: absolute;
+  top: 50%;
+  right: 25%;
 }

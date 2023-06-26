@@ -22,7 +22,7 @@ const Offerings = () => {
                     </div>
                     <div className='img'>
                         <img src={model} alt="model" />
-                        <p>Open Systems interconnection (OSI) model</p>
+                        <p>Open Systems Interconnection (OSI) model</p>
                     </div>
                     <div className='btn'>
                         <a href='#solutionoffring'>

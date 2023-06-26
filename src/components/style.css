@@ -113,7 +113,7 @@ html {
 
 .solution-background-image2 {
     position: absolute;
-    bottom: 11%;
+    bottom: 22%;
     right: 46%;
     z-index: 1;
 }
@@ -334,8 +334,8 @@ form h2 {
 
 .contact-background1 {
     position: absolute;
-    top: 56%;
-    right: 15.4%;
+    top: 50%;
+    right: 25%;
 }
 
 .contact-background1 img {
