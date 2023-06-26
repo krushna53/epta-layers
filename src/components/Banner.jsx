@@ -34,7 +34,7 @@ const Banner = () => {
                             tailor-made solutions.
                         </h2>
                         <div className='banner-btn'>
-                            <Link to='About'>Learn more</Link>
+                            <Link to='About'>About us</Link>
                         </div>
                     </div>
                 </div>
