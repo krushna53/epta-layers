@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect,useRef } from 'react';
 import Banner from "../components/Banner";
 import Offerings from '../components/Offerings';
 import SolutionOffering from "../components/SolutionOfferings";
@@ -13,7 +13,7 @@ import DataCenterServices from '../components/DataCenterServices';
 
 const Home = () => {
     const scrollRef = useRef(null);
-    useScrollSnap({ ref: scrollRef });
+    useScrollSnap({ ref: scrollRef, duration: 50, delay: 20 });
 
     return (
         <div ref={scrollRef}>
