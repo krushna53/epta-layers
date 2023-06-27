@@ -6,7 +6,7 @@ function Footer() {
     return (
         <>
             <div className="footer-section">
-                <div className="footer-wrapper">
+                <div className="footer_w">
                     <div className="footer-image">
                         <Link to='/'><img src={footer_image} alt="footer_image" /></Link>
                     </div>

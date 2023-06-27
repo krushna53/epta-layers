@@ -4,8 +4,7 @@ const Santhosh = () => {
   return (
     <>
       <section className="santos">
-        <div className="wrapper">
-          <div className="santos_left_img">
+        <div className="santos_left_img">
             <img src="../images/Santhosh photo v2 (1).png" alt="santhosh" />
           </div>
           <div className="santos_right_con">
@@ -20,16 +19,16 @@ const Santhosh = () => {
               retaining customers.
             </p>
             <ul>
-              <b>Identifying Customers:</b>
+              <p>Identifying Customers:</p>
               <li>Recognizing and anticipating customer wants and needs.</li>
               <li>
                 Segmenting the target market to better understand specific
                 customer groups and their unique preferences.
               </li>
-              <b>Satisfying Customers:</b>
+              <p>Satisfying Customers:</p>
               <li>Ensuring the availability of the appropriate product or service to meet customers' demands at the right time.</li>
               <li>Creating value for customers by providing products/services that exceed their expectations.</li>
-              <b>Retaining Customers:</b>
+              <p>Retaining Customers:</p>
               <li>Fostering customer loyalty by consistently delivering exceptional experiences.</li>
               <li>Staying updated with innovative technology solutions to enhance customer engagement.</li>
             </ul>
@@ -37,7 +36,6 @@ const Santhosh = () => {
               <a href="/">Connect on LinkedIn</a>
             </button>
           </div>
-        </div>
       </section>
     </>
   )

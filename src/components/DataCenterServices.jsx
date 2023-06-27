@@ -5,6 +5,10 @@ const DataCenterServices = () => {
     
     return (
         <> 
+         <div
+        className="bg"
+        style={{ backgroundImage: `url("../images/Frame-2.png")` }}
+      >
         <section className='DataCenterServices'>
             <div className='wrapper'>
                 <div className='box'>
@@ -49,6 +53,7 @@ const DataCenterServices = () => {
                 </div>
             </div>
         </section>
+        </div>
         </>
     )
 }
