@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react'
-import Aos from 'aos';
+
 const Networking = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
+
   return (
     <>
         <nav aria-label="breadcrumb">
@@ -21,7 +19,7 @@ const Networking = () => {
         <div className="networking_wrapper">
           <div className="d-flex">
             <div className="left_img"></div>
-            <div className="right_con" data-aos="fade-up">
+            <div className="right_con">
               <p>
                 Epta Layers is a single-point enterprise solutions provider that
                 works with IT world leaders to deliver tailor-made solutions for

@@ -1,11 +1,9 @@
 import React, { useEffect } from 'react'
-import Aos from 'aos';
+
 import dataJson from '../Data/data.json';
 
 const CollaborationArchitecture = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
+
   return (
     <>
     <section className='CollaborationArchitecture'>
@@ -14,7 +12,7 @@ const CollaborationArchitecture = () => {
           {dataJson['Collaboration Architecture'].map((d, i) => {
             return (
               <React.Fragment key={d.id}>
-                <div data-aos="fade-up" data-aos-offset="300" >
+                <div>
                 <div className="d-flex">
                   <p>0{d.id}</p>
                   <h2>{d.title}</h2>
@@ -34,7 +32,7 @@ const CollaborationArchitecture = () => {
         </div>
         <div className="image">
           {dataJson.img2.map((d, i) => {
-            return <img data-aos="zoom-in" data-aos-duration="3000" key={i} src={d.img} alt='' />;
+            return <img  key={i} src={d.img} alt='' />;
           })}
         </div>
         <div className="dec">
