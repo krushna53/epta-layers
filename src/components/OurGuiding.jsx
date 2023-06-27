@@ -5,6 +5,8 @@ const OurGuiding = () => {
 
   return (
     <>
+    <div className='main'>
+    <div className='bg_ourGuiding'>
       <section className="OurGuiding">
         <div className="wrapper">
         <div className="OurGuiding_wrapper">
@@ -37,6 +39,8 @@ const OurGuiding = () => {
         </div>
         </div>
       </section>
+    </div>
+    </div>
     </>
   )
 }

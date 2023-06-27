@@ -8,6 +8,12 @@ html {
     scroll-behavior: smooth;
 }
 
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
 .banner-container {
     position: relative;
 }
@@ -22,12 +28,16 @@ html {
     margin: 0px;
 }
 
-.banner-des-folder {
+/* .banner-des-folder {
     position: absolute;
     top: 17%;
     right: 8%;
     transform: translateY(-50%);
-}
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+} */
 
 .banner-des-image {
     margin-bottom: 80px;
@@ -304,9 +314,11 @@ form h2 {
 
 .contact-epta-layer-container-image {
     max-width: 384px;
-    position: relative;
-    transform: translateY(-100px);
+    position: absolute;
+    /* transform: translateY(-0); */
     display: none;
+    right: 0;
+    top: 0;
 }
 
 .submit-btn {
@@ -342,12 +354,12 @@ form h2 {
     width: 82px;
 }
 
-.contact-background2 {
+/* .contact-background2 {
     position: absolute;
     bottom: -1%;
     left: 0%;
 
-}
+} */
 
 /* 
 .contact-background2 img {
@@ -1378,9 +1390,9 @@ form h2 {
         width: 100%;
     }
 
-    .OurGuiding_wrapper .d-flex {
+    /* .OurGuiding_wrapper .d-flex {
         margin-right: auto;
-    }
+    } */
 
     .OurGuiding_wrapper .d-flex p {
         font-size: 16px;
@@ -1393,6 +1405,65 @@ form h2 {
     .WeAre .form_con h2 {
         font-size: 24px;
         font-weight: 500;
+    }
+
+    .SolutionOfferingsDetails,
+    .CollaborationArchitecture,
+    .DataCenterServices {
+        height: 100%;
+        padding: 20px 0;
+    }
+
+    .our-unique-strenth-section,
+    .contact-epta-layer-section,
+    .footer-section {
+        padding: 20px 0;
+        height: 100%;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    section.offerings {
+        height: 100%;
+    }
+
+    .banner-section {
+        width: 450px;
+    }
+
+    div#gatsby-focus-wrapper {
+        overflow: auto;
+        scroll-snap-type: none;
+    }
+
+    .about_banner,
+    section.business_continuity,
+    .OurGuiding,
+    .santos,
+    .networking {
+        height: auto;
+        scroll-snap-align: none;
+        padding: 20px 0;
+    }
+
+    .section.business_continuity {
+        padding-bottom: 0;
+    }
+
+    .right_img {
+        background-size: 100%;
+        min-height: 400px;
+        background-position: 8px 31px
+    }
+
+    .santos {
+        display: block;
+    }
+
+    .bg_ourGuiding {
+        background-size: 150px;
     }
 }
 
