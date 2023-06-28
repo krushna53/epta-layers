@@ -8,7 +8,7 @@ import SolutionOffering_backhround from "../images/solution-offering-background-
 
 const SolutionOfferingsDetails = () => {
   return (
-    <>
+    <> 
       <div
         className="bg"
         style={{ backgroundImage: `url("../images/Frame-2.png")` }}
