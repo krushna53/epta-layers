@@ -4,7 +4,7 @@ import SolutionOffering_background1 from '../images/service-background1.png';
 import SolutionOffering_background2 from '../images/service-background2.png';
 
 function SolutionOffering() {
-
+ 
     return (
         <>
             <div className="solution-offering-section" id='solutionoffring'>

@@ -4,7 +4,7 @@ import dataJson from '../Data/data.json';
 const DataCenterServices = () => {
     
     return (
-        <> 
+        <>  
          <div
         className="bg"
         style={{ backgroundImage: `url("../images/Frame-2.png")` }}

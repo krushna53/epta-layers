@@ -3,7 +3,7 @@ import our_unique_image from '../images/our-unique-image1.png';
 import our_unique_image2 from '../images/our-unique-image2.png';
 
 function Ouruniquestrenth(){
-    return(
+    return( 
         <>
             <div className="our-unique-strenth-section">
                 <div className="our-unique-strenth-wrapper">

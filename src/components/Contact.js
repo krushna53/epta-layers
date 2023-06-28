@@ -69,7 +69,7 @@ function Contact() {
       console.log("Email is invalide")
     }
   }
-
+ 
   return (
     <>
       <div className="bg_contact">
