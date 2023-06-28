@@ -121,12 +121,7 @@ html {
     width: 581px;
 }
 
-.solution-background-image2 {
-    position: absolute;
-    bottom: 22%;
-    right: 46%;
-    z-index: 1;
-}
+
 
 .solution-background-image2 img {
     width: 54px;
@@ -732,12 +727,7 @@ form h2 {
         right: -8%;
     }
 
-    .solution-background-image2 {
-        position: absolute;
-        bottom: 11%;
-        right: 44%;
-        z-index: 1;
-    }
+  
 
     .wrapper {
         background: url(/static/Frame-2-99878af….png)no-repeat;
@@ -900,7 +890,7 @@ form h2 {
 @media only screen and (max-width: 767px) {
     .banner-des-folder {
         position: absolute;
-        top: 23%;
+        top: 25%;
         right: 0%;
         left: 9%;
         transform: translateY(-50%);
@@ -1013,7 +1003,7 @@ form h2 {
     .solution-background-image2 {
         position: absolute;
         bottom: 9%;
-        right: 72%;
+        right: 75%;
         z-index: 1;
     }
 
@@ -1266,10 +1256,11 @@ form h2 {
 
     /* about us page */
     .left_img {
-        /* background-size: cover;
-        background-position: center;
-        min-height: 250px; */
-        display: none;
+        background: url('../images/12.png')no-repeat;
+        background-size: 100%;
+        min-height: 420px;
+        width: 100%;
+        /* display: none; */
     }
 
     .business_continuity .d-flex {
@@ -1430,7 +1421,8 @@ form h2 {
     }
 
     .banner-section {
-        width: 450px;
+  height: 255px;
+        width: 450px
     }
 
     div#gatsby-focus-wrapper {
@@ -1465,6 +1457,15 @@ form h2 {
     .bg_ourGuiding {
         background-size: 150px;
     }
+    .bg_networking{
+        background: none;
+    }
+    .networking{
+        flex-direction: column;
+    }
+    section.business_continuity{
+        padding-bottom: 0;
+    }
 }
 
 @media only screen and (max-width: 360px) {
@@ -1485,9 +1486,13 @@ form h2 {
     }
 
     .right_img {
-        background-position: 12px;
+        background-position: 0px 0px;
+        background-size: 100%;
+        min-height: 320px;
     }
-
+    .left_img{
+        min-height: 320px;
+    }
     /* 
     .left_img {
         min-height: 300px;
