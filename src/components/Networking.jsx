@@ -3,10 +3,7 @@ import React, { useEffect } from "react"
 const Networking = () => {
   return (
     <>
-     
-      <div className="bg_networking">
-        <section className="networking">
-        <nav aria-label="breadcrumb">
+       <nav aria-label="breadcrumb">
         <ul className="breadcrumb">
           <li className="breadcrumb-item">
             <a className="active" href="/">
@@ -19,7 +16,9 @@ const Networking = () => {
           </li>
         </ul>
       </nav>
-          {/* <div className="left_img"></div> */}
+      <div className="bg_networking">
+        <section className="networking">
+          <div className="left_img"></div>
           <div className="right_con">
             <p>
               Epta Layers is a single-point enterprise solutions provider that
