@@ -373,6 +373,18 @@ form h2 {
     font-size: 54px;
     font-weight: 600;
     line-height: 1;
+}@media only screen and (min-width: 1367px) {
+    .btn button {
+        padding: 11px 62px;}
+        .solution-background-image2{
+            bottom: 23%;
+        } 
+        .contact-background1,
+        .WeAre .contact-background1 {
+            position: absolute;
+            top: 37%;
+            right: 21%;
+        }
 }
 
 @media only screen and (max-width: 1024px) {
