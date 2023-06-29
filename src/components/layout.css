@@ -34,6 +34,7 @@ html {
   line-height: var(--line-height-normal);
   overflow-y: scroll;
 }
+
 /* section{
   height: 700px;
 } */
@@ -792,5 +793,7 @@ img {
   color: #152e6f;
   border-bottom: 1px solid #152e6f;
 }
-.breadcrumb i{
-margin-top: 2px;}
+
+.breadcrumb i {
+  margin-top: 2px;
+}
