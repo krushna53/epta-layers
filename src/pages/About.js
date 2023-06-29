@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import AboutBanner from '../components/AboutBanner'
 import Networking from '../components/Networking'
 import BusinessContinuity from '../components/BusinessContinuity'
@@ -7,6 +7,7 @@ import Santhosh from '../components/Santhosh'
 import WeAre from '../components/WeAre'
 import Footer from '../components/Footer'
 const About = () => {
+
     return (
         <>
             <AboutBanner />

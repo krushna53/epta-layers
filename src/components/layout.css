@@ -38,6 +38,7 @@ html {
 /* section{
   height: 700px;
 } */
+
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -48,7 +49,9 @@ body {
   margin: 0;
   word-wrap: break-word;
 }
-
+body::-webkit-scrollbar {
+  display: none;
+}
 a {
   background-color: transparent;
   color: var(--color-primary);
@@ -302,6 +305,7 @@ section.offerings {
   font-style: italic;
   font-size: 15px;
   font-weight: 600;
+  margin-top: 5px;
 }
 
 .right .img img {
@@ -347,14 +351,19 @@ section.offerings {
   padding-left: 75px;
 }
 
+.CollaborationArchitecture,
+.DataCenterServices {
+  padding-left: 75px;
+}
+
 .wrapper {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
   margin: auto;
-  background: url(../images/Frame-2.png)no-repeat;
+  /* background: url(../images/Frame-2.png)no-repeat;
   background-size: 26%;
-  background-position: 100% 0;
+  background-position: 100% 0; */
   position: relative;
   padding: 50px 76px 40px 0;
 }
@@ -454,6 +463,8 @@ section.offerings {
 
 .about_banner_title img {
   width: 50px;
+  margin-left: 9px;
+  margin-top: 1px;
 }
 
 .networking {
@@ -466,10 +477,10 @@ section.offerings {
 
 .left_img {
   background: url('../images/12.png')no-repeat;
-  background-position: 152% 46px;
-  background-size: 120%;
-  min-height: 540px;
+  background-size: 67.8%;
+  min-height: 100vh;
   width: 100%;
+  background-position: -6% 0%;
 }
 
 /* .right_con {
@@ -521,12 +532,12 @@ section.business_continuity {
 } */
 
 .right_img {
-  background: url(../images/13.png)no-repeat;
-  background-size: 150%;
-  min-height: 590px;
+  background: url(../images/13-2669518b527f99168c1ac8a64e429070\ \(1\).png)no-repeat;
+  background-size: contain;
+  min-height: 100vh;
   width: 100%;
   margin: auto;
-  background-position: 32% 25%;
+  background-position: 100%;
 }
 
 .business_continuity h2 {
@@ -796,4 +807,297 @@ img {
 
 .breadcrumb i {
   margin-top: 2px;
+}
+
+.right_con .img p {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 600;
+
+}
+
+.about_banner_title h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+
+.WeAre .contact-background1 {
+  position: absolute;
+  top: 50%;
+  right: 25%;
+}
+
+
+/* new css 27-6 */
+div#gatsby-focus-wrapper {
+  height: 100vh;
+  width: 100%;
+  overflow-y: scroll;
+  /* overflow-y: scroll; */
+  scroll-snap-type: y mandatory;
+}
+
+.about_banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  /* height: 100vh; */
+  scroll-snap-align: start;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  /* height: 100vh; */
+  padding: 30px 0px;
+  scroll-snap-align: start;
+}
+
+.banner-section {
+  background: url(../images/Epta\ homepage\ banner\ v1.2.png)no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+.footer_w {
+  margin: auto;
+  width: 90vw;
+}
+
+.banner-des-folder {
+  position: absolute;
+  top: 50%;
+  right: 4%;
+  transform: translateY(-50%);
+}
+
+section.offerings {
+  max-width: 100%;
+  width: 90vw;
+  margin: auto;
+  padding: 50px 0px;
+}
+
+section.offerings {
+  max-width: 100%;
+  width: 90vw;
+  margin: auto;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  scroll-snap-align: start;
+} 
+
+.solution-offering-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.solution-background-image2 {
+  position: absolute;
+  bottom: 13% ;
+  right: 46%;
+  z-index: 1;
+}
+
+.SolutionOfferingsDetails,
+.CollaborationArchitecture,
+.DataCenterServices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 90vw;
+  padding: 0;
+  scroll-snap-align: start;
+  margin: auto;
+}
+
+.bg {
+  background-repeat: no-repeat;
+  background-size: 26%;
+  background-position: 100% 0;
+  position: relative;
+  padding: 0px 0px 0px 0 !important;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  position: relative;
+  padding: 0px 0px 0px 0 !important;
+  gap: 150px;
+}
+
+.box {
+  width: auto;
+}
+
+.wrapper .d-flex p {
+  padding: 18px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.our-unique-strenth-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.bg_contact {
+  background-color: #f8f8f6;
+  position: relative;
+}
+
+.contact-epta-layer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.contact-epta-layer-wrapper {
+  max-width: 100%;
+  width: 90vw;
+  margin-left: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-epta-layer-container {
+  display: flex;
+  justify-content: start !important;
+  gap: 150px;
+  padding: 0 !important;
+}
+
+.contact-background2 img {
+  width: 400px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.bg_networking {
+  background: url(../images/12.png)no-repeat;
+  background-position: -10px 116px;
+  background-size: 50%;
+}
+
+
+.networking {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin: auto;
+  scroll-snap-align: start;
+}
+
+section.business_continuity {
+  background: #152e6f;
+  width: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+}
+
+.OurGuiding {
+  background: none;
+  position: relative;
+  /* padding: 50px 0 0 0; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.main {
+  background: #d2d2da;
+}
+
+.bg_ourGuiding {
+  background: url(../images/Screenshot_8.png)no-repeat;
+  background-position: 100% 0%;
+  background-size: 240px;
+}
+
+.OurGuiding .wrapper {
+  background: none;
+}
+
+.santos {
+  background: #fff;
+  width: 90vw;
+  margin: auto;
+  margin-right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+  scroll-snap-align: start;
+  gap: 60px;
+}
+
+.santos_right_con {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.santos_right_con p {
+  margin: 10px 0;
+}
+
+.santos_right_con ul {
+  margin: 0;
+  padding: 0;
+}
+
+.santos_right_con ul p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.santos_right_con ul li {
+  margin-left: 20px;
+  margin-bottom: 2px;
+}
+.left_img{
+  background: none;
 }

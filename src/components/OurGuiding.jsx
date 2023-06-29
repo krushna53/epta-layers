@@ -1,20 +1,20 @@
 import React, { useEffect } from 'react'
-import Aos from 'aos';
+
 
 const OurGuiding = () => {
-  useEffect(() => {
-    Aos.init({ duration: 3000 });
-}, []);
+
   return (
     <>
+    <div className='main'>
+    <div className='bg_ourGuiding'>
       <section className="OurGuiding">
         <div className="wrapper">
         <div className="OurGuiding_wrapper">
-        <h2 data-aos="fade-up" data-aos-offset="200">Our Guiding Principles</h2>
+        <h2>Our Guiding Principles</h2>
           <div className="d-flex">
             <div className="left_box">
               <img src="../images/14.png" alt="" />
-              <div className="con" data-aos="fade-up" data-aos-offset="200">
+              <div className="con">
                 <h5>Vision</h5>
                 <p>
                   To provide the best IT infrastructure solutions and help our
@@ -25,7 +25,7 @@ const OurGuiding = () => {
             </div>
             <div className="right_box">
             <img src="../images/14.png" alt="" />
-              <div className="con" data-aos="fade-up" data-aos-offset="200">
+              <div className="con">
                 <h5>Mission</h5>
                 <p>
                   To be the point solutions team for all IT infrastructure
@@ -39,6 +39,8 @@ const OurGuiding = () => {
         </div>
         </div>
       </section>
+    </div>
+    </div>
     </>
   )
 }

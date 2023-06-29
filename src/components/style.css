@@ -8,6 +8,12 @@ html {
     scroll-behavior: smooth;
 }
 
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
 .banner-container {
     position: relative;
 }
@@ -22,12 +28,16 @@ html {
     margin: 0px;
 }
 
-.banner-des-folder {
+/* .banner-des-folder {
     position: absolute;
     top: 17%;
     right: 8%;
     transform: translateY(-50%);
-}
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+} */
 
 .banner-des-image {
     margin-bottom: 80px;
@@ -111,12 +121,7 @@ html {
     width: 581px;
 }
 
-.solution-background-image2 {
-    position: absolute;
-    bottom: 11%;
-    right: 46%;
-    z-index: 1;
-}
+
 
 .solution-background-image2 img {
     width: 54px;
@@ -304,9 +309,11 @@ form h2 {
 
 .contact-epta-layer-container-image {
     max-width: 384px;
-    position: relative;
-    transform: translateY(-100px);
+    position: absolute;
+    /* transform: translateY(-0); */
     display: none;
+    right: 0;
+    top: 0;
 }
 
 .submit-btn {
@@ -334,20 +341,20 @@ form h2 {
 
 .contact-background1 {
     position: absolute;
-    top: 56%;
-    right: 15.4%;
+    top: 50%;
+    right: 25%;
 }
 
 .contact-background1 img {
     width: 82px;
 }
 
-.contact-background2 {
+/* .contact-background2 {
     position: absolute;
     bottom: -1%;
     left: 0%;
 
-}
+} */
 
 /* 
 .contact-background2 img {
@@ -427,7 +434,9 @@ form h2 {
         padding-top: 80px;
     }
 
-    .SolutionOfferingsDetails {
+    .SolutionOfferingsDetails,
+    .CollaborationArchitecture,
+    .DataCenterServices {
         padding-left: 20px;
     }
 
@@ -718,12 +727,7 @@ form h2 {
         right: -8%;
     }
 
-    .solution-background-image2 {
-        position: absolute;
-        bottom: 11%;
-        right: 44%;
-        z-index: 1;
-    }
+  
 
     .wrapper {
         background: url(/static/Frame-2-99878af….png)no-repeat;
@@ -886,7 +890,7 @@ form h2 {
 @media only screen and (max-width: 767px) {
     .banner-des-folder {
         position: absolute;
-        top: 23%;
+        top: 25%;
         right: 0%;
         left: 9%;
         transform: translateY(-50%);
@@ -926,7 +930,7 @@ form h2 {
         padding: 10px 31px;
         font-size: 14px;
     }
-
+ 
     .d-flex {
         display: flex;
         flex-direction: column;
@@ -999,7 +1003,7 @@ form h2 {
     .solution-background-image2 {
         position: absolute;
         bottom: 9%;
-        right: 72%;
+        right: 75%;
         z-index: 1;
     }
 
@@ -1252,10 +1256,11 @@ form h2 {
 
     /* about us page */
     .left_img {
-        /* background-size: cover;
-        background-position: center;
-        min-height: 250px; */
-        display: none;
+        background: url('../images/12.png')no-repeat;
+        background-size: 100%;
+        min-height: 420px;
+        width: 100%;
+        /* display: none; */
     }
 
     .business_continuity .d-flex {
@@ -1376,9 +1381,9 @@ form h2 {
         width: 100%;
     }
 
-    .OurGuiding_wrapper .d-flex {
+    /* .OurGuiding_wrapper .d-flex {
         margin-right: auto;
-    }
+    } */
 
     .OurGuiding_wrapper .d-flex p {
         font-size: 16px;
@@ -1391,6 +1396,75 @@ form h2 {
     .WeAre .form_con h2 {
         font-size: 24px;
         font-weight: 500;
+    }
+
+    .SolutionOfferingsDetails,
+    .CollaborationArchitecture,
+    .DataCenterServices {
+        height: 100%;
+        padding: 20px 0;
+    }
+
+    .our-unique-strenth-section,
+    .contact-epta-layer-section,
+    .footer-section {
+        padding: 20px 0;
+        height: 100%;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    section.offerings {
+        height: 100%;
+    }
+
+    .banner-section {
+  height: 255px;
+        width: 450px
+    }
+
+    div#gatsby-focus-wrapper {
+        overflow: auto;
+        scroll-snap-type: none;
+    }
+
+    .about_banner,
+    section.business_continuity,
+    .OurGuiding,
+    .santos,
+    .networking {
+        height: auto;
+        scroll-snap-align: none;
+        padding: 20px 0;
+    }
+
+    .section.business_continuity {
+        padding-bottom: 0;
+    }
+
+    .right_img {
+        background-size: 100%;
+        min-height: 400px;
+        background-position: 8px 31px
+    }
+
+    .santos {
+        display: block;
+    }
+
+    .bg_ourGuiding {
+        background-size: 150px;
+    }
+    .bg_networking{
+        background: none;
+    }
+    .networking{
+        flex-direction: column;
+    }
+    section.business_continuity{
+        padding-bottom: 0;
     }
 }
 
@@ -1412,9 +1486,13 @@ form h2 {
     }
 
     .right_img {
-        background-position: 12px;
+        background-position: 0px 0px;
+        background-size: 100%;
+        min-height: 320px;
     }
-
+    .left_img{
+        min-height: 320px;
+    }
     /* 
     .left_img {
         min-height: 300px;
