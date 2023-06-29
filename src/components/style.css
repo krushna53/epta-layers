@@ -374,8 +374,6 @@ form h2 {
     font-weight: 600;
     line-height: 1;
 }@media only screen and (min-width: 1367px) {
-    .btn button {
-        padding: 11px 62px;}
         .solution-background-image2{
             bottom: 23%;
         } 
@@ -476,7 +474,7 @@ form h2 {
     }
 
     .btn button {
-        padding: 13px 51px;
+        /* padding: 13px 51px; */
         border-radius: 28px;
         margin-top: 20px;
     }
@@ -579,10 +577,10 @@ form h2 {
         right: 0%;
         left: 46.3%;
     }
-
+/* 
     .btn button {
         padding: 13px 43px;
-    }
+    } */
 
     .wrapper .d-flex p {
         padding: 17px;
@@ -786,7 +784,7 @@ form h2 {
     }
 
     .btn button {
-        padding: 9px 38px;
+        /* padding: 9px 38px; */
         margin-top: 20px;
     }
 
