@@ -415,7 +415,9 @@ section.offerings {
 .wrapper .dec {
   transform: translate(0px, 50%);
 }
-
+.wrapper .dec h2{
+  text-align: right;
+}
 .wrapper .dec p {
   text-align: right;
   max-width: 207px;
@@ -772,7 +774,7 @@ img {
 
 .contact-epta-layer-container h2 {
   font-size: 37px;
-  /* font-weight: 500; */
+  font-weight: 500;
   max-width: 200px;
 }
 
@@ -792,10 +794,6 @@ form{
 .inner-input input,.inner-input textarea{
   width: 100%;
 }
-
-#offerings .btn{
-  justify-content: flex-start;
-}
 .breadcrumb {
   display: flex;
   justify-content: center;
@@ -806,7 +804,9 @@ form{
 .breadcrumb {
   margin-top: 20px;
 }
-
+.solution-offring-image img{
+  width: 256px;
+}
 .breadcrumb li {
   list-style: none;
   margin: 0 5px;

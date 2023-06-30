@@ -91,11 +91,11 @@ function Contact() {
                 <form ref={form} action="" onSubmit={sendEmail}>
                   <h2>Get in touch</h2>
                   <div className="inner-input">
-                    <label className="ipLabels">Name:</label>
+                    <label className="ipLabels">Name</label>
                     <input type="text" name="name" value={name} onChange={NameinputChange} required />
                   </div>
                   <div className="inner-input">
-                    <label className="ipLabels">Email:</label>
+                    <label className="ipLabels">Email</label>
                     <input
                       type="Email"
                       name="email"
@@ -105,7 +105,7 @@ function Contact() {
                     />
                   </div>
                   <div className="inner-input">
-                    <label className="ipLabels">Text:</label>
+                    <label className="ipLabels">Text</label>
                     <textarea
                       type="text"
                       cols="21"
