@@ -151,7 +151,7 @@ html {
 
 .footer-container h2 {
     margin: 0px;
-    font-size: 60px;
+    font-size: 37px;
 }
 
 .footer-folder1 {
@@ -207,8 +207,8 @@ html {
 }
 
 .our-unique-strenth-left-section h2 {
-    font-size: 60px;
-    line-height: 67px;
+    font-size: 37px;
+    line-height: 43px;
 }
 
 .our-unique-strenth-right-section {
@@ -238,7 +238,7 @@ html {
 }
 
 .our-unique-strenth-folder h2 {
-    font-size: 34px;
+    font-size: 28px;
     margin: 5px 0px 5px 0px;
 }
 
@@ -268,21 +268,10 @@ html {
     padding: 100px 0px 50px 0px;
 }
 
-/* 
-.contact-epta-layer-container h2 {
-    font-size: 52px;
-    max-width: 290px;
-} */
 
 .contact-form {
     max-width: 313px;
 }
-
-/* .contact-form h2,
-form h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-} */
 
 .contact-form p {
     font-size: 16px;
@@ -488,11 +477,11 @@ form h2 {
         display: flex;
         gap: 20px;
     }
-
+/* 
     .our-unique-strenth-left-section h2 {
         font-size: 48px;
         line-height: 62px;
-    }
+    } */
 
     .our-unique-strenth-wrapper {
         max-width: 867px;
@@ -603,9 +592,9 @@ form h2 {
         font-size: 13px;
     }
 
-    .our-unique-strenth-left-section h2 {
+    /* .our-unique-strenth-left-section h2 {
         font-size: 42px;
-    }
+    } */
 
     .our-unique-image img {
         width: 130px;
@@ -653,15 +642,6 @@ form h2 {
         top: 33%;
         right: 16.4%;
     }
-
-    .contactUs-title {
-        font-size: 49px !important;
-    }
-
-    /* .contact-form h2,
-    form h2 {
-        font-size: 18px;
-    } */
 }
 
 @media only screen and (max-width: 768px) {
@@ -792,10 +772,10 @@ form h2 {
         padding-left: 12PX;
     }
 
-    .our-unique-strenth-left-section h2 {
+    /* .our-unique-strenth-left-section h2 {
         font-size: 41px;
         line-height: 57px;
-    }
+    } */
 
     .our-unique-strenth-container {
         display: flex;
@@ -886,9 +866,9 @@ form h2 {
         font-size: 25px;
     }
 
-    .contactUs-title {
+    /* .contactUs-title {
         font-size: 48px !important;
-    }
+    } */
 
     .offerings .right .btn {
         display: flex;
@@ -992,7 +972,7 @@ form h2 {
     }
 
     .solution-offering-left-section h2 {
-        font-size: 46px;
+        font-size: 37px;
     }
 
     .solution-offering-left-section p {
@@ -1039,11 +1019,11 @@ form h2 {
         align-items: flex-start;
         height: auto;
     }
-
+/* 
     .our-unique-strenth-left-section h2 {
         font-size: 41px;
         line-height: 44px;
-    }
+    } */
 
     .our-unique-strenth-folder {
         max-width: 319px;
@@ -1143,10 +1123,7 @@ form h2 {
         width: 172px;
     }
 
-    .contactUs-title {
-        font-size: 43px !important;
-    }
-
+   
     .footer-container {
         display: flex;
         justify-content: space-between;

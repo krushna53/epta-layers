@@ -33,7 +33,7 @@ const Santhosh = () => {
               <li>Staying updated with innovative technology solutions to enhance customer engagement.</li>
             </ul>
             <button>
-              <a href="/">Connect on LinkedIn</a>
+              <a href="https://shorturl.at/rxyF8" target="_blank">Connect on LinkedIn</a>
             </button>
           </div>
       </section>

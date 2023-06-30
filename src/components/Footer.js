@@ -22,11 +22,11 @@ function Footer() {
                         <div className="footer-folder2">
                             <div className="footer-info">
                                 <h2>Tel:</h2>
-                                <a href="#">(+91 9886-71-3131)</a>
+                                <a href="tel:+91 9886713131">(+91 9886-71-3131)</a>
                             </div>
                             <div className="footer-info">
                                 <h2>Email:</h2>
-                                <a href="#">info@eptalayers.com</a>
+                                <a href="mailto:info@eptalayers.com">info@eptalayers.com</a> 
                             </div>
                         </div>
                     </div>

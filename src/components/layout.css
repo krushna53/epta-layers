@@ -779,12 +779,23 @@ img {
 .contact-form h2 {
   font-size: 28px;
   font-weight: 500;
+  margin-bottom: 20px;
 }
 
 .contact-background2 img {
   width: 400px;
 }
+form{
+  width: 300px;
+  margin: auto;
+}
+.inner-input input,.inner-input textarea{
+  width: 100%;
+}
 
+#offerings .btn{
+  justify-content: flex-start;
+}
 .breadcrumb {
   display: flex;
   justify-content: center;
