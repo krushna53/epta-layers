@@ -120,10 +120,8 @@ const WeAre = () => {
               <p>
               To apply for a position at Epta Layers,
               please send a cover letter together with
-              your resume to <b>hr@eptalayers.com</b>
+              your resume to <b><a href="mailto:hr@eptalayers.com">hr@eptalayers.com</a></b>
               </p>
-              
-
               </div>
             </div>
             <div className="contact-epta-layer-container-image">
