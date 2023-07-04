@@ -923,14 +923,14 @@ html {
         font-size: 14px 
    }
     .left_box .con {
-        top: 13%;
-        left: 17%;
-        width: 266px;
+        top: 5%;
+        left: 7%;
+        width: 293px
    }
     .right_box .con {
-        top: 6%;
-        right: 11%;
-        width: 293px;
+        top: 4%;
+        right: 0%;
+        width: 309px;
    }
     .santos_left_img img, .santos_left_img {
         width: 100%;
@@ -951,10 +951,10 @@ html {
         margin: auto;
    }
     .business_continuity h2 {
-        font-size: 39px;
+        font-size: 34px;
         line-height: 1.2;
         width: 338px;
-        padding-top: 24px;
+        /* padding-top: 24px; */
    }
     .business_continuity p {
         width: 300px;
@@ -968,9 +968,7 @@ html {
         font-size: 39px;
         font-weight: 400;
    }
-    .left_box, .right_box {
-        width: 400px;
-   }
+
     .left_box img, .right_box img {
         width: 100%;
    }
@@ -1008,6 +1006,7 @@ html {
    }
     .section.business_continuity {
         padding-bottom: 0;
+        margin-top: 30px;
    }
     .right_img {
         background-size: 100%;
@@ -1028,6 +1027,7 @@ html {
    }
     section.business_continuity {
         padding-bottom: 0;
+        margin-top: 30px;
    }
     section.offerings{
         padding: 0;
@@ -1058,7 +1058,7 @@ html {
     .right_img {
         background-position: 0px 0px;
         background-size: 100%;
-        min-height: 320px;
+        min-height: 298px;
    }
     .left_img {
         min-height: 320px;
@@ -1067,7 +1067,7 @@ html {
         margin: auto;
    }
     .business_continuity h2 {
-        font-size: 39px;
+        font-size: 34px;
         line-height: 1.2;
         width: 100%;
    }
