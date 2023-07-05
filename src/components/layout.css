@@ -415,9 +415,11 @@ section.offerings {
 .wrapper .dec {
   transform: translate(0px, 50%);
 }
-.wrapper .dec h2{
+
+.wrapper .dec h2 {
   text-align: right;
 }
+
 .wrapper .dec p {
   text-align: right;
   max-width: 207px;
@@ -625,7 +627,7 @@ section.business_continuity {
   width: 500px;
 }
 
-.left_box .con {
+/* .left_box .con {
   color: #fff;
   position: absolute;
   z-index: 0;
@@ -633,7 +635,7 @@ section.business_continuity {
   left: 12%;
   width: 294px;
   margin: auto;
-}
+} */
 
 .left_box h5,
 .right_box h5 {
@@ -645,16 +647,15 @@ section.business_continuity {
   font-size: 18px;
 }
 
-.right_box .con {
+/* .right_box .con {
   color: #fff;
   position: absolute;
   z-index: 0;
   top: 50px;
   right: 25%;
-  /* bottom: 100%; */
   width: 321px;
   margin: auto;
-}
+} */
 
 img {
   margin: 0;
@@ -787,13 +788,17 @@ img {
 .contact-background2 img {
   width: 400px;
 }
-form{
+
+form {
   width: 300px;
   margin: auto;
 }
-.inner-input input,.inner-input textarea{
+
+.inner-input input,
+.inner-input textarea {
   width: 100%;
 }
+
 .breadcrumb {
   display: flex;
   justify-content: center;
@@ -804,9 +809,11 @@ form{
 .breadcrumb {
   margin-top: 20px;
 }
-.solution-offring-image img{
+
+.solution-offring-image img {
   width: 256px;
 }
+
 .breadcrumb li {
   list-style: none;
   margin: 0 5px;
@@ -1120,4 +1127,23 @@ section.business_continuity {
 
 .left_img {
   background: none;
+}
+
+.con {
+  background: url(../images/14.png)no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 300px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  color: #fff;
+}
+.left_box .box_con{
+  max-width: 294px;
+}
+.right_box .box_con{
+  max-width: 321px;
 }
