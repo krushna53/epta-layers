@@ -1148,19 +1148,6 @@ html {
         padding: 2px;
         font-size: 14px
     }
-
-    .left_box .con {
-        top: 5%;
-        left: 7%;
-        width: 293px
-    }
-
-    .right_box .con {
-        top: 4%;
-        right: 0%;
-        width: 309px;
-    }
-
     .santos_left_img img,
     .santos_left_img {
         width: 100%;
@@ -1309,6 +1296,18 @@ html {
         width: 100vw;
         margin-left: 20px;
     }
+
+    .left_box .con,
+    .right_box .con {
+        width: 100%;
+        padding: 20px;
+        height: 100%;
+    }
+
+    .right_box .box_con,
+    .left_box .box_con {
+        max-width: 100%;
+    }
 }
 
 @media only screen and (max-width: 395px) {
@@ -1318,20 +1317,19 @@ html {
         width: 100%;
     }
 
+    .left_box .con,
     .right_box .con {
-        top: 13%;
-        right: 12%;
-        width: 240px;
+        padding: 20px;
+        height: 200px;
     }
-
     .OurGuiding_wrapper .d-flex p {
         line-height: 1.1;
     }
 
     .right_img {
-        background-position: 0px 0px;
-        background-size: 100%;
-        min-height: 298px;
+        background-position: right;
+        background-size: contain;
+        min-height: 300px;
     }
 
     .left_img {
@@ -1345,21 +1343,5 @@ html {
     .business_continuity h2 {
         font-size: 34px;
         line-height: 1.2;
-    }
-
-    .left_box,
-    .right_box {
-        width: 300px;
-    }
-
-    .left_box .con {
-        top: 12%;
-        left: 8%;
-    }
-
-    .right_box .con {
-        top: 6%;
-        right: 4%;
-        width: 266px;
     }
 }
