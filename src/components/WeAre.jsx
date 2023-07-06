@@ -2,40 +2,40 @@ import React, { useRef, useState } from "react"
 import contact_image from "../images/contact-image.jpg"
 import contact_background1 from "../images/banner-background2.png"
 import contact_background2 from "../images/Untitled_design.png"
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
+import emailjs from "@emailjs/browser"
 
 const WeAre = () => {
-  const form = useRef();
+  const form = useRef()
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-  
+  const sendEmail = e => {
+    e.preventDefault()
+
     emailjs
-      .sendForm(     
-        'service_2y8jmmd',
-        'template_aqyj34d',
+      .sendForm(
+        "service_f850n8y",
+        "template_aqyj34d",
         form.current,
-        'iSJQH-k6iBRGiGbK1'
+        "iSJQH-k6iBRGiGbK1"
         // process.env.REACT_APP_SERVICE_ID,
         // process.env.REACT_APP_TEMPLATE_ID,
         // form.current,
         // process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
-        (result) => {
-          console.log(result.text);
+        result => {
+          console.log(result.text)
           // Show a toast with the thank you message
-          toast.success("Thank you for your message!");
+          toast.success("Thank you for reaching out! We'll be in touch soon.")
         },
-        (error) => {
-          console.log(error.text);
+        error => {
+          console.log(error.text)
           // Show a toast with the error message
-          toast.error("Oops! Something went wrong.");
+          toast.error("Oops! Something went wrong.")
         }
-      );
-  };
+      )
+  }
 
   return (
     <>
@@ -80,10 +80,7 @@ const WeAre = () => {
                   <h2>Careers</h2>
                   <p>
                     To apply for a position at Epta Layers, please send a cover
-                    letter together with your resume to{" "}
-                    <b>
-                      <a href="mailto:hr@eptalayers.com">hr@eptalayers.com</a>
-                    </b>
+                    letter together with your resume to <b>hr@eptalayers.com</b>
                   </p>
                 </div>
               </div>
