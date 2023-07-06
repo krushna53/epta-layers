@@ -14,7 +14,7 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_2y8jmmd",
+        "service_f850n8y",
         "template_aqyj34d",
         form.current,
         "iSJQH-k6iBRGiGbK1"
@@ -23,7 +23,7 @@ function Contact() {
         (result) => {
           console.log(result.text);
           // Show a toast with the thank you message
-          toast.success("Thank you for your message!");
+          toast.success("Thank you for reaching out! We'll be in touch soon.");
         },
         (error) => {
           console.log(error.text);
