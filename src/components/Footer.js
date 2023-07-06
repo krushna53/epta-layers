@@ -31,9 +31,10 @@ function Footer() {
                         </div>
                     </div>
                     <div className="footer-social-link">
-                        <a href="#">  <i className="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i className="fa-brands fa-twitter"></i></a>
+                        <a href="https://shorturl.at/rxyF8" target="_blank">  <i className="fa-brands fa-linkedin"></i></a>
+                        {/* <a href="#"><i className="fa-brands fa-facebook-f"></i></a> */}
+                        {/* <a href="#"><i className="fa-brands fa-twitter"></i></a> */}
+                        <a href="https://api.whatsapp.com/send?phone=919886713131&text="><i class="fa-brands fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
