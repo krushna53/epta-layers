@@ -156,7 +156,8 @@ html {
     font-size: 17px;
 }
 
-.footer-info a {
+.footer-info a,
+.footer-info p {
     color: #cdcdce;
     text-decoration: none;
 }

@@ -26,7 +26,7 @@ function Footer() {
                             </div>
                             <div className="footer-info">
                                 <h2>Email:</h2>
-                                <a href="mailto:info@eptalayers.com">info@eptalayers.com</a> 
+                                <p>info@eptalayers.com</p> 
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ function Footer() {
                         <a href="https://shorturl.at/rxyF8" target="_blank">  <i className="fa-brands fa-linkedin"></i></a>
                         {/* <a href="#"><i className="fa-brands fa-facebook-f"></i></a> */}
                         {/* <a href="#"><i className="fa-brands fa-twitter"></i></a> */}
-                        <a href="https://api.whatsapp.com/send?phone=919886713131&text="><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=919886713131&text=" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
