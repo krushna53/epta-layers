@@ -11,17 +11,13 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-  
+
     emailjs
-      .sendForm(     
-        'service_2y8jmmd',
-        'template_aqyj34d',
+      .sendForm(
+        "service_2y8jmmd",
+        "template_aqyj34d",
         form.current,
-        'iSJQH-k6iBRGiGbK1'
-        // process.env.REACT_APP_SERVICE_ID,
-        // process.env.REACT_APP_TEMPLATE_ID,
-        // form.current,
-        // process.env.REACT_APP_PUBLIC_KEY
+        "iSJQH-k6iBRGiGbK1"
       )
       .then(
         (result) => {
@@ -36,6 +32,7 @@ function Contact() {
         }
       );
   };
+
   return (
     <>
       <div className="bg_contact">
