@@ -24,6 +24,9 @@ function Contact() {
           console.log(result.text);
           // Show a toast with the thank you message
           toast.success("Thank you for reaching out! We'll be in touch soon.");
+          document.getElementById('name').value = ''
+          document.getElementById('email').value = ''
+          document.getElementById('message').value = ''
         },
         (error) => {
           console.log(error.text);
@@ -57,6 +60,7 @@ function Contact() {
                     <label className="ipLabels">Name</label>
                     <input type="text"
                       name="user_name"
+                      id="name"
                       required
                     />
                   </div>
@@ -78,6 +82,7 @@ function Contact() {
                       rows="5"
                       className="form-control"
                       name="message"
+                      id="message"
                       required
                     />
                   </div>
