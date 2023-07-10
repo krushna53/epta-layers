@@ -28,6 +28,9 @@ const WeAre = () => {
           console.log(result.text)
           // Show a toast with the thank you message
           toast.success("Thank you for reaching out! We'll be in touch soon.")
+          document.getElementById('name').value = ''
+          document.getElementById('email').value = ''
+          document.getElementById('message').value = ''
         },
         error => {
           console.log(error.text)
@@ -45,11 +48,15 @@ const WeAre = () => {
             <div className="contact-epta-layer-container">
               <h2>We are Epta Layers</h2>
               <div className="contact-form">
-                <form ref={form} onSubmit={sendEmail}>
+              <form ref={form} onSubmit={sendEmail}>
                   <h2>Get in touch</h2>
                   <div className="inner-input">
                     <label className="ipLabels">Name</label>
-                    <input type="text" name="user_name" required />
+                    <input type="text"
+                      name="user_name"
+                      id="name"
+                      required
+                    />
                   </div>
                   <div className="inner-input">
                     <label className="ipLabels">Email</label>
@@ -69,6 +76,7 @@ const WeAre = () => {
                       rows="5"
                       className="form-control"
                       name="message"
+                      id="message"
                       required
                     />
                   </div>
