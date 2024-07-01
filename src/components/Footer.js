@@ -13,10 +13,17 @@ function Footer() {
                     <div className="footer-container">
                         <h2 className="contactUs-title">Contact us</h2>
                         <div className="footer-folder1">
-                            <h2>Main Office</h2>
+                            <h2>Registered Office :</h2>
                             <p>#47, 9th Cross, 5th Main,
                                 Srinidhi Layout
-                                Bengaluru – 560062
+                                Bangalore  – 560062
+                            </p>
+                            <h2>Branch Office :</h2>
+                            <p>1st Floor, No 427/14-1, 9th  Main Road,
+                                5th Block,  Jayanagar,
+                                Bangalore – 560041
+                               <b> Landmark: </b>
+                                Next to Adishwar Electro World - Jayanagar
                             </p>
                         </div>
                         <div className="footer-folder2">
