@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import kv2 from "../images/kv2.jpg"
 
 const CaseStudiesDetails = () => {
@@ -11,7 +11,7 @@ const CaseStudiesDetails = () => {
               <img src={kv2} alt="case" />
             </div>
             <div className="case_left">
-              <h1>Lorem ipsum dolor sit amet.</h1>
+              <h1>From Network Chaos to IT Harmony: Epta's Winning Strategy for an IT/ITeS Giant</h1>
               <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
                 quasi adipisci tenetur rem sunt sed voluptates officia veritatis
@@ -22,27 +22,21 @@ const CaseStudiesDetails = () => {
                 saepe!
               </p>
               <div className="btn">
-                <a href="">Click her more details</a>
+                <a href="">Click here more details</a>
               </div>
             </div>
           </div>
-          <div className="vc-line">
+          {/* <div className="vc-line">
             <span></span>
           </div>
           <div className="case_studies">
             <div className="case_left">
-              <h1>Lorem ipsum dolor sit amet.</h1>
+              <h1></h1>
               <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                quasi adipisci tenetur rem sunt sed voluptates officia veritatis
-                eveniet error natus neque, incidunt dolorem labore tempora
-                soluta temporibus quam? Dicta incidunt quidem, nisi voluptate
-                obcaecati quod corporis animi debitis reiciendis nostrum sunt
-                temporibus id? Deserunt consequatur harum voluptates atque
-                saepe!            
+                 
               </p>
               <div className="btn">
-                <a href="">Click her more details</a>
+                <a href="">Click here more details</a>
               </div>
             </div>
             <div className="case_right">
@@ -57,21 +51,15 @@ const CaseStudiesDetails = () => {
               <img src={kv2} alt="case" />
             </div>
             <div className="case_left">
-              <h1>Lorem ipsum dolor sit amet.</h1>
+              <h1></h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                quasi adipisci tenetur rem sunt sed voluptates officia veritatis
-                eveniet error natus neque, incidunt dolorem labore tempora
-                soluta temporibus quam? Dicta incidunt quidem, nisi voluptate
-                obcaecati quod corporis animi debitis reiciendis nostrum sunt
-                temporibus id? Deserunt consequatur harum voluptates atque
-                saepe!
+               
               </p>
               <div className="btn">
-                <a href="">Click her more details</a>
+                <a href="">Click here more details</a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
