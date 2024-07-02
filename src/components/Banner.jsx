@@ -29,8 +29,13 @@ const Banner = () => {
                 <br />
                 tailor-made solutions.
               </h2>
+              <div className="d-flex">
               <div className="banner-btn">
                 <Link to="About">About us</Link>
+              </div>
+              {/* <div className="case-btn">
+                <Link to="Casestudies">Case Studies</Link>
+              </div> */}
               </div>
             </div>
       </div>
