@@ -33,9 +33,9 @@ const Banner = () => {
               <div className="banner-btn">
                 <Link to="About">About us</Link>
               </div>
-              {/* <div className="case-btn">
+              <div className="case-btn">
                 <Link to="Casestudies">Case Studies</Link>
-              </div> */}
+              </div>
               </div>
             </div>
       </div>
